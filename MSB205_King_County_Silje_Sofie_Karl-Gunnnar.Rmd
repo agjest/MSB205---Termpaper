@@ -104,7 +104,110 @@ kc_house_data_sf <-  kc_house_data_sf %>%
 # 3. Family income
 
 ```{r}
-asc_b19101_fam_inc <- read.dbf("maps/censusSHP/acs_b19101_familyincome.dbf")
+kc_wadoh_map <- here("maps/WADOH_Environmental_Health_Disparities_Index_Calculated_for_King_County___wadohehdindex_area/WADOH_Environmental_Health_Disparities_Index_Calculated_for_King_County___wadohehdindex_area.shp") %>% 
+      st_read() %>% 
+  st_transform(2926)
 ```
 
+```{r}
+kc_wadoh_map <- kc_wadoh_map %>% 
+  select(
+  GEO_ID_TRT,
+  EHD_percen,#Environmental Health Index, weighted score many vars
+  linguist_2,#Pop. age 5+ speaking English less than "very well"
+  poverty_pe,#Percentage people living in poverty
+  POC_percen,#People of Color in percentage of pop. in tract
+  transporta,#% of income spent on transportation median family in tract
+  unemploy_2,#percentage unemployed
+  housing_pe,#% of households in group "Unaffordable Housing" (>30% inc.)
+  traffic_pe,#% of pop. near heavy traffic roadways
+  diesel,# nox consentration
+  ozone,# ozone consentration
+  PM25, # consentration of Particulate Matter in air
+  toxic_rele, # Toxic release from factories
+  hazardous_, # Hazardous Waste Treatment Storage and disposal Facilities
+  lead_perce, # measure of Lead paint in houses
+  superfund, # Proximity to contaminated sites on national list
+  facilities, # Proximity to Risk Management Plan Facilities
+  wastewater, # Proximity to wastewater facilities
+  sen_pop_pe, # % pop. over 65
+  socio_perc # score social economic determants, low best
+  )
+```
+
+```{r}
+class(kc_wadoh_map)
+```
+
+
+```{r}
+asc_b19101_fam_inc <- read.dbf("maps/censusSHP/acs_b19101_familyincome.dbf")
+attach(asc_b19101_fam_inc)
+```
+
+```{r}
+asc_b19101_fam_inc <- asc_b19101_fam_inc %>% 
+    mutate(low = (E19101138 + E19101139 + E19101140 + E19101141 + E19101142 + E19101143)) %>% 
+    mutate(mid = (E19101144 + E19101145 + E19101146 + E19101147 + E19101148 + E19101149)) %>% 
+    mutate(high = (E19101150 + E19101151 + E19101152 + E19101153))
+```
+
+```{r}
+asc_b19101_fam_inc <- asc_b19101_fam_inc %>% 
+    select(GEOIDTRT, low, mid, high) %>% 
+    rename(GEO_ID_TRT = GEOIDTRT)
+```
+
+```{r}
+kc_wadoh_map_2 <- left_join(
+    asc_b19101_fam_inc,
+    st_drop_geometry(kc_wadoh_map),
+    by = "GEO_ID_TRT")
+```
+
+```{r}
+class(kc_wadoh_map_2)
+```
+
+
+```{r}
+kc_tracts10 <- here("maps/censusSHP/tracts10.shp") %>% 
+  st_read() %>% 
+  st_transform(2926)
+```
+
+```{r}
+kc_tracts10_shore <- here("maps/censusSHP/tracts10_shore.shp") %>% 
+  st_read() %>% 
+  st_transform(2926)
+```
+
+```{r}
+kc_tracts10_env_data <- left_join(
+  kc_tracts10, kc_wadoh_map_2,
+  by = "GEO_ID_TRT"
+  )
+
+kc_tracts10_shore_env_data <- left_join(
+  kc_tracts10_shore, kc_wadoh_map_2,
+  by = "GEO_ID_TRT"
+  )
+```
+
+```{r}
+class(kc_tracts10_env_data)
+class(kc_tracts10_shore_env_data)
+```
+
+```{r}
+summary(kc_tracts10)
+```
+
+```{r}
+kc_houses_env_var <- st_join(kc_house_data_sf, kc_tracts10_env_data)
+```
+
+```{r}
+st_write(kc_houses_env_var, "kc_houses_env_var.gpkg", append = FALSE)
+```
 
