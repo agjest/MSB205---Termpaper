@@ -1,0 +1,58 @@
+---
+title: "MSB205 - Boligmarkedsøkonomi og anvendt spatial økonometri"
+subtitle: "Termpaper - House sales in King County, WA"
+author: 
+  - "Karl-Gunnar Severinsen"
+  - "Silje Marie Danielsen"
+  - "Sofie Brynjelsen"
+date: "Innleveringsfrist: xx.11.2021"
+header-includes: |
+  \usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhead[L]{Emnekode: MSB203}
+  \fancyhead[C]{King County}
+  \fancyhead[R]{Dato: xx.11.2021}
+  \fancyfoot[CO,CE]{\thepage}
+  \usepackage{sectsty}
+  \allsectionsfont{\color{cyan}}
+  \usepackage{titling}
+  \pretitle{\begin{center}
+  \includegraphics[width=3in,height=3in]{hvl.jpg}\LARGE\\}
+  \posttitle{\end{center}}
+output: 
+  pdf_document: default
+  html_notebook: default
+classoption: twoside
+fontsize: 12pt
+linestretch: 1.5
+bibliography: Masteroppgave.bib
+csl: apa.csl
+lang: nb-NO
+---
+
+```{r setup, echo=FALSE, message=FALSE}
+library(tidyverse)
+library(lubridate)
+library(sf)
+library(here)
+library(tmap)
+library(sp)
+library(spdep)
+library(spatialreg)
+library(lmtest)
+library(sandwich)
+library(units)
+library(car)
+library(foreign)
+options(scipen = 999)
+```
+
+
+\newpage 
+\tableofcontents 
+
+\newpage
+
+# House Sales in King County, WA
+
+*Her kommer det noe tekst*

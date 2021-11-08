@@ -1,0 +1,66 @@
+---
+title: "Spatial Join"
+output: html_notebook
+---
+
+Showing how spatial join is done i sf.
+
+```{r setup}
+library(tidyverse)
+library(sf)
+library(here)
+```
+
+```{r}
+kc_houses <- here("maps/SpatialJoin/kc_house_data_251264.gpkg") %>% 
+  st_read() %>% 
+  st_transform(2926)
+```
+
+```{r}
+names(kc_houses)
+```
+
+```{r}
+kc_tracts10 <- here("maps/SpatialJoin/tracts10.shp") %>% 
+  st_read() %>% 
+  st_transform(2926)
+```
+
+```{r}
+names(kc_tracts10)
+```
+
+```{r}
+kc_wadoh_map <- here("maps/SpatialJoin/kc_wadoh_map.gpkg") %>% 
+  st_read() %>% 
+  st_transform(2926)
+```
+
+```{r}
+names(kc_wadoh_map)
+```
+
+```{r}
+kc_tracts10_env_data <- left_join(
+  kc_tracts10,
+  st_drop_geometry(kc_wadoh_map),
+  by = "GEO_ID_TRT"
+  )
+```
+
+```{r}
+names(kc_tracts10_env_data)
+```
+
+```{r}
+kc_houses_env_var <- st_join(kc_houses, kc_tracts10_env_data)
+```
+
+```{r}
+names(kc_houses_env_var)
+```
+
+```{r}
+st_write(kc_houses_env_var, "kc_houses_env_var.gpkg", append = FALSE)
+```

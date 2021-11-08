@@ -1,0 +1,11 @@
+FULLNAME,TITLE,THEME,UPDATEFREQ,FIRSTADDED_OPENDATA,LASTPOSTED_SDW,WHENREFRESHED_OPENDATA,SHAPEFILE
+address_point,Addresses in King County,admin,Monthly,20160428,20211017,20211021,YES
+blkgrp00_area,Census 2000 Block Groups,census,None planned,20160502,20121231,20211021,YES
+city_area,Incorporated Areas of King County,admin,As needed,20160303,20211019,20211021,YES
+city_kc_area,Cities and Unincorporated King County,admin,As needed,20160919,20211019,20211021,YES
+coalmine_area,Coal Mine Hazards,enviro,None planned,20160901,20130109,20211021,YES
+forpddst_area,Forest Production Districts,natres,Annually,20160926,20210111,20211021,YES
+gwsource_point,Groundwater Sources,hydro,Weekly,20160920,20211016,20211021,YES
+topo_basin_kc_area,Basin boundaries derived from terrain data - King County only,hydro,As needed,20160920,20130124,20211021,YES
+votdst_area,Voting Districts of King County,district,As needed,20160919,20210309,20211021,YES
+wtrdst_area,Water Districts of King County,district,As needed,20160919,20210309,20211021,YES
