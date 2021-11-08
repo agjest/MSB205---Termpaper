@@ -32,6 +32,8 @@ lang: nb-NO
 
 ```{r setup, echo=FALSE, message=FALSE}
 library(tidyverse)
+library(dplyr)
+library(huxtable)
 library(lubridate)
 library(sf)
 library(here)
@@ -44,6 +46,7 @@ library(sandwich)
 library(units)
 library(car)
 library(foreign)
+library(readr)
 options(scipen = 999)
 ```
 
@@ -53,6 +56,55 @@ options(scipen = 999)
 
 \newpage
 
-# House Sales in King County, WA
+# 1. Review of papers
 
 *Her kommer det noe tekst*
+
+
+# 2. House Sales in King County, WA
+
+```{r}
+kc_house_data <- read_csv("data/kc_house_data.csv")
+attach(kc_house_data)
+```
+
+```{r}
+kc_house_data <- arrange(kc_house_data, desc(date))
+```
+
+```{r}
+kc_house_data <- kc_house_data %>%
+    distinct(id, .keep_all = TRUE)
+```
+
+```{r}
+kc_house_data_sf <- st_as_sf(kc_house_data,
+             coords = c(x = "long", y = "lat"),
+             crs = 4326) %>% 
+    st_transform(2926)
+```
+
+Koordinater Seattle: 47.60621, -122.33207
+
+```{r}
+cbd <- st_sfc(st_point(c(-122.33207, 47.60621)), crs = 4326) %>% 
+    st_transform(2926)
+cbd
+```
+
+```{r}
+kc_house_data_sf <-  kc_house_data_sf %>% 
+  mutate(
+    dist_cbd = st_distance(cbd, ., by_element = TRUE),
+    dist_cbd_km = set_units(dist_cbd, km)
+  )
+```
+
+
+# 3. Family income
+
+```{r}
+asc_b19101_fam_inc <- read.dbf("maps/censusSHP/acs_b19101_familyincome.dbf")
+```
+
+

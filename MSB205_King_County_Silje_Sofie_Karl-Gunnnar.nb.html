@@ -228,13 +228,149 @@ pre code {
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <div style="page-break-after: always;"></div>
-<div id="house-sales-in-king-county-wa" class="section level1">
-<h1>House Sales in King County, WA</h1>
+<div id="review-of-papers" class="section level1">
+<h1>1. Review of papers</h1>
 <p><em>Her kommer det noe tekst</em></p>
+</div>
+<div id="house-sales-in-king-county-wa" class="section level1">
+<h1>2. House Sales in King County, WA</h1>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxua2NfaG91c2VfZGF0YSA8LSByZWFkX2NzdihcImRhdGEva2NfaG91c2VfZGF0YS5jc3ZcIilcbmBgYCJ9 -->
+<pre class="r"><code>kc_house_data &lt;- read_csv(&quot;data/kc_house_data.csv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUm93czogMjE2MTMgQ29sdW1uczogMjFcbi0tIENvbHVtbiBzcGVjaWZpY2F0aW9uIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tXG5EZWxpbWl0ZXI6IFwiLFwiXG5jaHIgICAoMSk6IGlkXG5kYmwgICgxOSk6IHByaWNlLCBiZWRyb29tcywgYmF0aHJvb21zLCBzcWZ0X2xpdmluZywgc3FmdF9sb3QsIGZsb29ycywgd2F0ZXJmcm9udCwgdmlldywgY29uZGl0aW9uLCBncmFkZSwgc3FmdF9hYm92ZSwgLi4uXG5kdHRtICAoMSk6IGRhdGVcblxuaSBVc2UgYHNwZWMoKWAgdG8gcmV0cmlldmUgdGhlIGZ1bGwgY29sdW1uIHNwZWNpZmljYXRpb24gZm9yIHRoaXMgZGF0YS5cbmkgU3BlY2lmeSB0aGUgY29sdW1uIHR5cGVzIG9yIHNldCBgc2hvd19jb2xfdHlwZXMgPSBGQUxTRWAgdG8gcXVpZXQgdGhpcyBtZXNzYWdlLlxuIn0= -->
+<pre><code>Rows: 21613 Columns: 21
+-- Column specification --------------------------------------------------------------------------------------------------
+Delimiter: &quot;,&quot;
+chr   (1): id
+dbl  (19): price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, sqft_above, ...
+dttm  (1): date
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYXR0YWNoKGtjX2hvdXNlX2RhdGEpXG5gYGAifQ== -->
+<pre class="r"><code>attach(kc_house_data)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiVGhlIGZvbGxvd2luZyBvYmplY3RzIGFyZSBtYXNrZWQgZnJvbSBrY19ob3VzZV9kYXRhIChwb3MgPSAzKTpcblxuICAgIGJhdGhyb29tcywgYmVkcm9vbXMsIGNvbmRpdGlvbiwgZGF0ZSwgZmxvb3JzLCBncmFkZSwgaWQsIGxhdCwgbG9uZywgcHJpY2UsIHNxZnRfYWJvdmUsIHNxZnRfYmFzZW1lbnQsXG4gICAgc3FmdF9saXZpbmcsIHNxZnRfbGl2aW5nMTUsIHNxZnRfbG90LCBzcWZ0X2xvdDE1LCB2aWV3LCB3YXRlcmZyb250LCB5cl9idWlsdCwgeXJfcmVub3ZhdGVkLCB6aXBjb2RlXG5cblRoZSBmb2xsb3dpbmcgb2JqZWN0cyBhcmUgbWFza2VkIGZyb20ga2NfaG91c2VfZGF0YSAocG9zID0gNCk6XG5cbiAgICBiYXRocm9vbXMsIGJlZHJvb21zLCBjb25kaXRpb24sIGRhdGUsIGZsb29ycywgZ3JhZGUsIGlkLCBsYXQsIGxvbmcsIHByaWNlLCBzcWZ0X2Fib3ZlLCBzcWZ0X2Jhc2VtZW50LFxuICAgIHNxZnRfbGl2aW5nLCBzcWZ0X2xpdmluZzE1LCBzcWZ0X2xvdCwgc3FmdF9sb3QxNSwgdmlldywgd2F0ZXJmcm9udCwgeXJfYnVpbHQsIHlyX3Jlbm92YXRlZCwgemlwY29kZVxuXG5UaGUgZm9sbG93aW5nIG9iamVjdHMgYXJlIG1hc2tlZCBmcm9tIGtjX2hvdXNlX2RhdGEgKHBvcyA9IDUpOlxuXG4gICAgYmF0aHJvb21zLCBiZWRyb29tcywgY29uZGl0aW9uLCBkYXRlLCBmbG9vcnMsIGdyYWRlLCBpZCwgbGF0LCBsb25nLCBwcmljZSwgc3FmdF9hYm92ZSwgc3FmdF9iYXNlbWVudCxcbiAgICBzcWZ0X2xpdmluZywgc3FmdF9saXZpbmcxNSwgc3FmdF9sb3QsIHNxZnRfbG90MTUsIHZpZXcsIHdhdGVyZnJvbnQsIHlyX2J1aWx0LCB5cl9yZW5vdmF0ZWQsIHppcGNvZGVcblxuVGhlIGZvbGxvd2luZyBvYmplY3RzIGFyZSBtYXNrZWQgZnJvbSBrY19ob3VzZV9kYXRhIChwb3MgPSA2KTpcblxuICAgIGJhdGhyb29tcywgYmVkcm9vbXMsIGNvbmRpdGlvbiwgZGF0ZSwgZmxvb3JzLCBncmFkZSwgaWQsIGxhdCwgbG9uZywgcHJpY2UsIHNxZnRfYWJvdmUsIHNxZnRfYmFzZW1lbnQsXG4gICAgc3FmdF9saXZpbmcsIHNxZnRfbGl2aW5nMTUsIHNxZnRfbG90LCBzcWZ0X2xvdDE1LCB2aWV3LCB3YXRlcmZyb250LCB5cl9idWlsdCwgeXJfcmVub3ZhdGVkLCB6aXBjb2RlXG5cblRoZSBmb2xsb3dpbmcgb2JqZWN0cyBhcmUgbWFza2VkIGZyb20ga2NfaG91c2VfZGF0YSAocG9zID0gNyk6XG5cbiAgICBiYXRocm9vbXMsIGJlZHJvb21zLCBjb25kaXRpb24sIGRhdGUsIGZsb29ycywgZ3JhZGUsIGlkLCBsYXQsIGxvbmcsIHByaWNlLCBzcWZ0X2Fib3ZlLCBzcWZ0X2Jhc2VtZW50LFxuICAgIHNxZnRfbGl2aW5nLCBzcWZ0X2xpdmluZzE1LCBzcWZ0X2xvdCwgc3FmdF9sb3QxNSwgdmlldywgd2F0ZXJmcm9udCwgeXJfYnVpbHQsIHlyX3Jlbm92YXRlZCwgemlwY29kZVxuXG5UaGUgZm9sbG93aW5nIG9iamVjdHMgYXJlIG1hc2tlZCBmcm9tIGtjX2hvdXNlX2RhdGEgKHBvcyA9IDgpOlxuXG4gICAgYmF0aHJvb21zLCBiZWRyb29tcywgY29uZGl0aW9uLCBkYXRlLCBmbG9vcnMsIGdyYWRlLCBpZCwgbGF0LCBsb25nLCBwcmljZSwgc3FmdF9hYm92ZSwgc3FmdF9iYXNlbWVudCxcbiAgICBzcWZ0X2xpdmluZywgc3FmdF9saXZpbmcxNSwgc3FmdF9sb3QsIHNxZnRfbG90MTUsIHZpZXcsIHdhdGVyZnJvbnQsIHlyX2J1aWx0LCB5cl9yZW5vdmF0ZWQsIHppcGNvZGVcblxuVGhlIGZvbGxvd2luZyBvYmplY3RzIGFyZSBtYXNrZWQgZnJvbSBrY19ob3VzZV9kYXRhIChwb3MgPSA5KTpcblxuICAgIGJhdGhyb29tcywgYmVkcm9vbXMsIGNvbmRpdGlvbiwgZGF0ZSwgZmxvb3JzLCBncmFkZSwgaWQsIGxhdCwgbG9uZywgcHJpY2UsIHNxZnRfYWJvdmUsIHNxZnRfYmFzZW1lbnQsXG4gICAgc3FmdF9saXZpbmcsIHNxZnRfbGl2aW5nMTUsIHNxZnRfbG90LCBzcWZ0X2xvdDE1LCB2aWV3LCB3YXRlcmZyb250LCB5cl9idWlsdCwgeXJfcmVub3ZhdGVkLCB6aXBjb2RlXG5cblRoZSBmb2xsb3dpbmcgb2JqZWN0cyBhcmUgbWFza2VkIGZyb20ga2NfaG91c2VfZGF0YSAocG9zID0gMTApOlxuXG4gICAgYmF0aHJvb21zLCBiZWRyb29tcywgY29uZGl0aW9uLCBkYXRlLCBmbG9vcnMsIGdyYWRlLCBpZCwgbGF0LCBsb25nLCBwcmljZSwgc3FmdF9hYm92ZSwgc3FmdF9iYXNlbWVudCxcbiAgICBzcWZ0X2xpdmluZywgc3FmdF9saXZpbmcxNSwgc3FmdF9sb3QsIHNxZnRfbG90MTUsIHZpZXcsIHdhdGVyZnJvbnQsIHlyX2J1aWx0LCB5cl9yZW5vdmF0ZWQsIHppcGNvZGVcblxuVGhlIGZvbGxvd2luZyBvYmplY3RzIGFyZSBtYXNrZWQgZnJvbSBrY19ob3VzZV9kYXRhIChwb3MgPSAxMSk6XG5cbiAgICBiYXRocm9vbXMsIGJlZHJvb21zLCBjb25kaXRpb24sIGRhdGUsIGZsb29ycywgZ3JhZGUsIGlkLCBsYXQsIGxvbmcsIHByaWNlLCBzcWZ0X2Fib3ZlLCBzcWZ0X2Jhc2VtZW50LFxuICAgIHNxZnRfbGl2aW5nLCBzcWZ0X2xpdmluZzE1LCBzcWZ0X2xvdCwgc3FmdF9sb3QxNSwgdmlldywgd2F0ZXJmcm9udCwgeXJfYnVpbHQsIHlyX3Jlbm92YXRlZCwgemlwY29kZVxuIn0= -->
+<pre><code>The following objects are masked from kc_house_data (pos = 3):
+
+    bathrooms, bedrooms, condition, date, floors, grade, id, lat, long, price, sqft_above, sqft_basement,
+    sqft_living, sqft_living15, sqft_lot, sqft_lot15, view, waterfront, yr_built, yr_renovated, zipcode
+
+The following objects are masked from kc_house_data (pos = 4):
+
+    bathrooms, bedrooms, condition, date, floors, grade, id, lat, long, price, sqft_above, sqft_basement,
+    sqft_living, sqft_living15, sqft_lot, sqft_lot15, view, waterfront, yr_built, yr_renovated, zipcode
+
+The following objects are masked from kc_house_data (pos = 5):
+
+    bathrooms, bedrooms, condition, date, floors, grade, id, lat, long, price, sqft_above, sqft_basement,
+    sqft_living, sqft_living15, sqft_lot, sqft_lot15, view, waterfront, yr_built, yr_renovated, zipcode
+
+The following objects are masked from kc_house_data (pos = 6):
+
+    bathrooms, bedrooms, condition, date, floors, grade, id, lat, long, price, sqft_above, sqft_basement,
+    sqft_living, sqft_living15, sqft_lot, sqft_lot15, view, waterfront, yr_built, yr_renovated, zipcode
+
+The following objects are masked from kc_house_data (pos = 7):
+
+    bathrooms, bedrooms, condition, date, floors, grade, id, lat, long, price, sqft_above, sqft_basement,
+    sqft_living, sqft_living15, sqft_lot, sqft_lot15, view, waterfront, yr_built, yr_renovated, zipcode
+
+The following objects are masked from kc_house_data (pos = 8):
+
+    bathrooms, bedrooms, condition, date, floors, grade, id, lat, long, price, sqft_above, sqft_basement,
+    sqft_living, sqft_living15, sqft_lot, sqft_lot15, view, waterfront, yr_built, yr_renovated, zipcode
+
+The following objects are masked from kc_house_data (pos = 9):
+
+    bathrooms, bedrooms, condition, date, floors, grade, id, lat, long, price, sqft_above, sqft_basement,
+    sqft_living, sqft_living15, sqft_lot, sqft_lot15, view, waterfront, yr_built, yr_renovated, zipcode
+
+The following objects are masked from kc_house_data (pos = 10):
+
+    bathrooms, bedrooms, condition, date, floors, grade, id, lat, long, price, sqft_above, sqft_basement,
+    sqft_living, sqft_living15, sqft_lot, sqft_lot15, view, waterfront, yr_built, yr_renovated, zipcode
+
+The following objects are masked from kc_house_data (pos = 11):
+
+    bathrooms, bedrooms, condition, date, floors, grade, id, lat, long, price, sqft_above, sqft_basement,
+    sqft_living, sqft_living15, sqft_lot, sqft_lot15, view, waterfront, yr_built, yr_renovated, zipcode</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxua2NfaG91c2VfZGF0YSA8LSBhcnJhbmdlKGtjX2hvdXNlX2RhdGEsIGRlc2MoZGF0ZSkpXG5gYGAifQ== -->
+<pre class="r"><code>kc_house_data &lt;- arrange(kc_house_data, desc(date))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxua2NfaG91c2VfZGF0YSA8LSBrY19ob3VzZV9kYXRhICU+JVxuICAgIGRpc3RpbmN0KGlkLCAua2VlcF9hbGwgPSBUUlVFKVxuYGBgIn0= -->
+<pre class="r"><code>kc_house_data &lt;- kc_house_data %&gt;%
+    distinct(id, .keep_all = TRUE)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxua2NfaG91c2VfZGF0YV9zZiA8LSBzdF9hc19zZihrY19ob3VzZV9kYXRhLFxuICAgICAgICAgICAgIGNvb3JkcyA9IGMoeCA9IFwibG9uZ1wiLCB5ID0gXCJsYXRcIiksXG4gICAgICAgICAgICAgY3JzID0gNDMyNikgJT4lIFxuICAgIHN0X3RyYW5zZm9ybSgyOTI2KVxuYGBgIn0= -->
+<pre class="r"><code>kc_house_data_sf &lt;- st_as_sf(kc_house_data,
+             coords = c(x = &quot;long&quot;, y = &quot;lat&quot;),
+             crs = 4326) %&gt;% 
+    st_transform(2926)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>Koordinater Seattle: 47.60621, -122.33207</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY2JkIDwtIHN0X3NmYyhzdF9wb2ludChjKC0xMjIuMzMyMDcsIDQ3LjYwNjIxKSksIGNycyA9IDQzMjYpICU+JSBcbiAgICBzdF90cmFuc2Zvcm0oMjkyNilcbmNiZFxuYGBgIn0= -->
+<pre class="r"><code>cbd &lt;- st_sfc(st_point(c(-122.33207, 47.60621)), crs = 4326) %&gt;% 
+    st_transform(2926)
+cbd</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiR2VvbWV0cnkgc2V0IGZvciAxIGZlYXR1cmUgXG5HZW9tZXRyeSB0eXBlOiBQT0lOVFxuRGltZW5zaW9uOiAgICAgWFlcbkJvdW5kaW5nIGJveDogIHhtaW46IDEyNzA3MjYgeW1pbjogMjI0NzI0LjkgeG1heDogMTI3MDcyNiB5bWF4OiAyMjQ3MjQuOVxuUHJvamVjdGVkIENSUzogTkFEODMoSEFSTikgLyBXYXNoaW5ndG9uIE5vcnRoIChmdFVTKVxuIn0= -->
+<pre><code>Geometry set for 1 feature 
+Geometry type: POINT
+Dimension:     XY
+Bounding box:  xmin: 1270726 ymin: 224724.9 xmax: 1270726 ymax: 224724.9
+Projected CRS: NAD83(HARN) / Washington North (ftUS)</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUE9JTlQgKDEyNzA3MjYgMjI0NzI0LjkpXG4ifQ== -->
+<pre><code>POINT (1270726 224724.9)</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxua2NfaG91c2VfZGF0YV9zZiA8LSAga2NfaG91c2VfZGF0YV9zZiAlPiUgXG4gIG11dGF0ZShcbiAgICBkaXN0X2NiZCA9IHN0X2Rpc3RhbmNlKGNiZCwgLiwgYnlfZWxlbWVudCA9IFRSVUUpLFxuICAgIGRpc3RfY2JkX2ttID0gc2V0X3VuaXRzKGRpc3RfY2JkLCBrbSlcbiAgKVxuYGBgIn0= -->
+<pre class="r"><code>kc_house_data_sf &lt;-  kc_house_data_sf %&gt;% 
+  mutate(
+    dist_cbd = st_distance(cbd, ., by_element = TRUE),
+    dist_cbd_km = set_units(dist_cbd, km)
+  )</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="family-income" class="section level1">
+<h1>3. Family income</h1>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYXNjX2IxOTEwMV9mYW1faW5jIDwtIHJlYWQuZGJmKFwibWFwcy9jZW5zdXNTSFAvYWNzX2IxOTEwMV9mYW1pbHlpbmNvbWUuZGJmXCIpXG5gYGAifQ== -->
+<pre class="r"><code>asc_b19101_fam_inc &lt;- read.dbf(&quot;maps/censusSHP/acs_b19101_familyincome.dbf&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 </div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIk1TQjIwNSAtIEJvbGlnbWFya2Vkc8O4a29ub21pIG9nIGFudmVuZHQgc3BhdGlhbCDDuGtvbm9tZXRyaSINCnN1YnRpdGxlOiAiVGVybXBhcGVyIC0gSG91c2Ugc2FsZXMgaW4gS2luZyBDb3VudHksIFdBIg0KYXV0aG9yOiANCiAgLSAiS2FybC1HdW5uYXIgU2V2ZXJpbnNlbiINCiAgLSAiU2lsamUgTWFyaWUgRGFuaWVsc2VuIg0KICAtICJTb2ZpZSBCcnluamVsc2VuIg0KZGF0ZTogIklubmxldmVyaW5nc2ZyaXN0OiB4eC4xMS4yMDIxIg0KaGVhZGVyLWluY2x1ZGVzOiB8DQogIFx1c2VwYWNrYWdle2ZhbmN5aGRyfQ0KICBccGFnZXN0eWxle2ZhbmN5fQ0KICBcZmFuY3loZWFkW0xde0VtbmVrb2RlOiBNU0IyMDN9DQogIFxmYW5jeWhlYWRbQ117S2luZyBDb3VudHl9DQogIFxmYW5jeWhlYWRbUl17RGF0bzogeHguMTEuMjAyMX0NCiAgXGZhbmN5Zm9vdFtDTyxDRV17XHRoZXBhZ2V9DQogIFx1c2VwYWNrYWdle3NlY3RzdHl9DQogIFxhbGxzZWN0aW9uc2ZvbnR7XGNvbG9ye2N5YW59fQ0KICBcdXNlcGFja2FnZXt0aXRsaW5nfQ0KICBccHJldGl0bGV7XGJlZ2lue2NlbnRlcn0NCiAgXGluY2x1ZGVncmFwaGljc1t3aWR0aD0zaW4saGVpZ2h0PTNpbl17aHZsLmpwZ31cTEFSR0VcXH0NCiAgXHBvc3R0aXRsZXtcZW5ke2NlbnRlcn19DQpvdXRwdXQ6IA0KICBwZGZfZG9jdW1lbnQ6IGRlZmF1bHQNCiAgaHRtbF9ub3RlYm9vazogZGVmYXVsdA0KY2xhc3NvcHRpb246IHR3b3NpZGUNCmZvbnRzaXplOiAxMnB0DQpsaW5lc3RyZXRjaDogMS41DQpiaWJsaW9ncmFwaHk6IE1hc3Rlcm9wcGdhdmUuYmliDQpjc2w6IGFwYS5jc2wNCmxhbmc6IG5iLU5PDQotLS0NCg0KYGBge3Igc2V0dXAsIGVjaG89RkFMU0UsIG1lc3NhZ2U9RkFMU0V9DQpsaWJyYXJ5KHRpZHl2ZXJzZSkNCmxpYnJhcnkobHVicmlkYXRlKQ0KbGlicmFyeShzZikNCmxpYnJhcnkoaGVyZSkNCmxpYnJhcnkodG1hcCkNCmxpYnJhcnkoc3ApDQpsaWJyYXJ5KHNwZGVwKQ0KbGlicmFyeShzcGF0aWFscmVnKQ0KbGlicmFyeShsbXRlc3QpDQpsaWJyYXJ5KHNhbmR3aWNoKQ0KbGlicmFyeSh1bml0cykNCmxpYnJhcnkoY2FyKQ0KbGlicmFyeShmb3JlaWduKQ0Kb3B0aW9ucyhzY2lwZW4gPSA5OTkpDQpgYGANCg0KDQpcbmV3cGFnZSANClx0YWJsZW9mY29udGVudHMgDQoNClxuZXdwYWdlDQoNCiMgSG91c2UgU2FsZXMgaW4gS2luZyBDb3VudHksIFdBDQoNCipIZXIga29tbWVyIGRldCBub2UgdGVrc3QqDQo=</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIk1TQjIwNSAtIEJvbGlnbWFya2Vkc8O4a29ub21pIG9nIGFudmVuZHQgc3BhdGlhbCDDuGtvbm9tZXRyaSINCnN1YnRpdGxlOiAiVGVybXBhcGVyIC0gSG91c2Ugc2FsZXMgaW4gS2luZyBDb3VudHksIFdBIg0KYXV0aG9yOiANCiAgLSAiS2FybC1HdW5uYXIgU2V2ZXJpbnNlbiINCiAgLSAiU2lsamUgTWFyaWUgRGFuaWVsc2VuIg0KICAtICJTb2ZpZSBCcnluamVsc2VuIg0KZGF0ZTogIklubmxldmVyaW5nc2ZyaXN0OiB4eC4xMS4yMDIxIg0KaGVhZGVyLWluY2x1ZGVzOiB8DQogIFx1c2VwYWNrYWdle2ZhbmN5aGRyfQ0KICBccGFnZXN0eWxle2ZhbmN5fQ0KICBcZmFuY3loZWFkW0xde0VtbmVrb2RlOiBNU0IyMDN9DQogIFxmYW5jeWhlYWRbQ117S2luZyBDb3VudHl9DQogIFxmYW5jeWhlYWRbUl17RGF0bzogeHguMTEuMjAyMX0NCiAgXGZhbmN5Zm9vdFtDTyxDRV17XHRoZXBhZ2V9DQogIFx1c2VwYWNrYWdle3NlY3RzdHl9DQogIFxhbGxzZWN0aW9uc2ZvbnR7XGNvbG9ye2N5YW59fQ0KICBcdXNlcGFja2FnZXt0aXRsaW5nfQ0KICBccHJldGl0bGV7XGJlZ2lue2NlbnRlcn0NCiAgXGluY2x1ZGVncmFwaGljc1t3aWR0aD0zaW4saGVpZ2h0PTNpbl17aHZsLmpwZ31cTEFSR0VcXH0NCiAgXHBvc3R0aXRsZXtcZW5ke2NlbnRlcn19DQpvdXRwdXQ6IA0KICBwZGZfZG9jdW1lbnQ6IGRlZmF1bHQNCiAgaHRtbF9ub3RlYm9vazogZGVmYXVsdA0KY2xhc3NvcHRpb246IHR3b3NpZGUNCmZvbnRzaXplOiAxMnB0DQpsaW5lc3RyZXRjaDogMS41DQpiaWJsaW9ncmFwaHk6IE1hc3Rlcm9wcGdhdmUuYmliDQpjc2w6IGFwYS5jc2wNCmxhbmc6IG5iLU5PDQotLS0NCg0KYGBge3Igc2V0dXAsIGVjaG89RkFMU0UsIG1lc3NhZ2U9RkFMU0V9DQpsaWJyYXJ5KHRpZHl2ZXJzZSkNCmxpYnJhcnkoZHBseXIpDQpsaWJyYXJ5KGh1eHRhYmxlKQ0KbGlicmFyeShsdWJyaWRhdGUpDQpsaWJyYXJ5KHNmKQ0KbGlicmFyeShoZXJlKQ0KbGlicmFyeSh0bWFwKQ0KbGlicmFyeShzcCkNCmxpYnJhcnkoc3BkZXApDQpsaWJyYXJ5KHNwYXRpYWxyZWcpDQpsaWJyYXJ5KGxtdGVzdCkNCmxpYnJhcnkoc2FuZHdpY2gpDQpsaWJyYXJ5KHVuaXRzKQ0KbGlicmFyeShjYXIpDQpsaWJyYXJ5KGZvcmVpZ24pDQpsaWJyYXJ5KHJlYWRyKQ0Kb3B0aW9ucyhzY2lwZW4gPSA5OTkpDQpgYGANCg0KDQpcbmV3cGFnZSANClx0YWJsZW9mY29udGVudHMgDQoNClxuZXdwYWdlDQoNCiMgMS4gUmV2aWV3IG9mIHBhcGVycw0KDQoqSGVyIGtvbW1lciBkZXQgbm9lIHRla3N0Kg0KDQoNCiMgMi4gSG91c2UgU2FsZXMgaW4gS2luZyBDb3VudHksIFdBDQoNCmBgYHtyfQ0Ka2NfaG91c2VfZGF0YSA8LSByZWFkX2NzdigiZGF0YS9rY19ob3VzZV9kYXRhLmNzdiIpDQphdHRhY2goa2NfaG91c2VfZGF0YSkNCmBgYA0KDQpgYGB7cn0NCmtjX2hvdXNlX2RhdGEgPC0gYXJyYW5nZShrY19ob3VzZV9kYXRhLCBkZXNjKGRhdGUpKQ0KYGBgDQoNCmBgYHtyfQ0Ka2NfaG91c2VfZGF0YSA8LSBrY19ob3VzZV9kYXRhICU+JQ0KICAgIGRpc3RpbmN0KGlkLCAua2VlcF9hbGwgPSBUUlVFKQ0KYGBgDQoNCmBgYHtyfQ0Ka2NfaG91c2VfZGF0YV9zZiA8LSBzdF9hc19zZihrY19ob3VzZV9kYXRhLA0KICAgICAgICAgICAgIGNvb3JkcyA9IGMoeCA9ICJsb25nIiwgeSA9ICJsYXQiKSwNCiAgICAgICAgICAgICBjcnMgPSA0MzI2KSAlPiUgDQogICAgc3RfdHJhbnNmb3JtKDI5MjYpDQpgYGANCg0KS29vcmRpbmF0ZXIgU2VhdHRsZTogNDcuNjA2MjEsIC0xMjIuMzMyMDcNCg0KYGBge3J9DQpjYmQgPC0gc3Rfc2ZjKHN0X3BvaW50KGMoLTEyMi4zMzIwNywgNDcuNjA2MjEpKSwgY3JzID0gNDMyNikgJT4lIA0KICAgIHN0X3RyYW5zZm9ybSgyOTI2KQ0KY2JkDQpgYGANCg0KYGBge3J9DQprY19ob3VzZV9kYXRhX3NmIDwtICBrY19ob3VzZV9kYXRhX3NmICU+JSANCiAgbXV0YXRlKA0KICAgIGRpc3RfY2JkID0gc3RfZGlzdGFuY2UoY2JkLCAuLCBieV9lbGVtZW50ID0gVFJVRSksDQogICAgZGlzdF9jYmRfa20gPSBzZXRfdW5pdHMoZGlzdF9jYmQsIGttKQ0KICApDQpgYGANCg0KDQojIDMuIEZhbWlseSBpbmNvbWUNCg0KYGBge3J9DQphc2NfYjE5MTAxX2ZhbV9pbmMgPC0gcmVhZC5kYmYoIm1hcHMvY2Vuc3VzU0hQL2Fjc19iMTkxMDFfZmFtaWx5aW5jb21lLmRiZiIpDQpgYGANCg0KDQo=</div>
 
 
 
