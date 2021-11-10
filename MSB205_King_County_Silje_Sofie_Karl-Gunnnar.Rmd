@@ -47,6 +47,7 @@ library(units)
 library(car)
 library(foreign)
 library(readr)
+library(lubridate)
 options(scipen = 999)
 ```
 
@@ -205,9 +206,47 @@ summary(kc_tracts10)
 
 ```{r}
 kc_houses_env_var <- st_join(kc_house_data_sf, kc_tracts10_env_data)
+kc_tracts10_shore_env_var <- st_join(kc_house_data_sf, kc_tracts10_shore_env_data)
 ```
 
 ```{r}
-st_write(kc_houses_env_var, "kc_houses_env_var.gpkg", append = FALSE)
+st_write(kc_house_data, "maps/kc_house_data.gpkg", append = FALSE)
+st_write(kc_tracts10, "maps/kc_tracts10.gpkg", append = FALSE)
+st_write(kc_tracts10_shore, "maps/kc_tracts10_shore.gpkg", append = FALSE)
+st_write(kc_houses_env_var, "maps/kc_houses_env_var.gpkg", append = FALSE)
+st_write(kc_tracts10_shore_env_var, "maps/kc_tracts10_shore_env_var.gpkg", append = FALSE)
+```
+
+# 4. 
+
+```{r}
+summary(kc_tracts10_env_data)
+```
+
+
+```{r}
+summary(kc_tracts10_shore_env_var)
+```
+
+Ved å se på dataene sammen med kartene i QGIS, så ser vi at *kc__tracts10_env_data* har én observasjons som faller utenfor kommunegrensene.
+
+![Observasjonen utenfor kommunegrensene.](komgrense.jpg)
+
+Ved å studere *kc_tracts10_shore_env_data* ser vi at alle observasjonene ligger fortsatt innenfor kommunegrensene, men ved å legge til shore-kartet som viser vannlinjen ser vi at det er 25 observasjoner som ligger utenfor denne vannlinen, og derfor gir 25 NA.
+
+![Observasjoner utenfor vannlinjen.](vannlinje.jpg)
+
+```{r}
+kc_houses_env_var <- arrange(kc_houses_env_var, desc(id))
+kc_houses_env_var_omit <- kc_houses_env_var[-c(11997),]
+```
+
+```{r}
+st_write(kc_houses_env_var_omit, "maps/kc_houses_env_var_omit.gpkg", append = FALSE)
+```
+
+```{r}
+kc_houses_env_var_omit <- kc_houses_env_var_omit %>% 
+    mutate(year_month = paste(year(date), month(date), sep = "-"))
 ```
 
