@@ -230,11 +230,11 @@ summary(kc_tracts10_shore_env_var)
 
 Ved å se på dataene sammen med kartene i QGIS, så ser vi at *kc__tracts10_env_data* har én observasjons som faller utenfor kommunegrensene.
 
-![Observasjonen utenfor kommunegrensene.](komgrense.jpg)
+![Observasjonen utenfor kommunegrensene.](screens/komgrense.jpg)
 
 Ved å studere *kc_tracts10_shore_env_data* ser vi at alle observasjonene ligger fortsatt innenfor kommunegrensene, men ved å legge til shore-kartet som viser vannlinjen ser vi at det er 25 observasjoner som ligger utenfor denne vannlinen, og derfor gir 25 NA.
 
-![Observasjoner utenfor vannlinjen.](vannlinje.jpg)
+![Observasjoner utenfor vannlinjen.](screens/vannlinje.jpg)
 
 ```{r}
 kc_houses_env_var <- arrange(kc_houses_env_var, desc(id))
@@ -247,6 +247,72 @@ st_write(kc_houses_env_var_omit, "maps/kc_houses_env_var_omit.gpkg", append = FA
 
 ```{r}
 kc_houses_env_var_omit <- kc_houses_env_var_omit %>% 
-    mutate(year_month = paste(year(date), month(date), sep = "-"))
+    mutate(
+        year_month = substr(date, start = 1, stop = 7))
+
+# Alternativ måte, som ikke tar med "0" i mnd:
+#     mutate(year_month = paste(year(date), month(date), sep = "-"))
 ```
+
+```{r}
+st_write(kc_houses_env_var_omit, "maps/kc_houses_env_var_omit.gpkg", append = FALSE)
+```
+
+# 5. Geoda-analyser
+
+## 3 nærmeste naboer
+
+![Vektmatrise med 3 nærmeste naboer](screens/knear3.jpg)
+
+### Små og dyre boliger
+
+![Små og dyre boliger markert i gule punkter.](screens/high_low_kn3.jpg)
+
+### Store og dyre boliger
+
+![Store og dyre boliger markert i rød punkter.](screens/high_high_kn3.jpg)
+
+### Store og billige boliger
+
+![Store og billige boliger markert i rosa punkter.](screens/low_high_kn3.jpg)
+
+### Små og billige boliger
+
+![Små og billige boliger markert i blå punkter.](screens/low_low_kn3.jpg)
+
+
+## Nærmeste 10 naboer
+
+![Vektmatrise med 10 nærmeste naboer](screens/knear10.jpg)
+
+### Små og dyre boliger
+
+![Små og dyre boliger markert i gule punkter.](screens/high_low_kn10.jpg)
+
+### Store og dyre boliger
+
+![Store og dyre boliger markert i rød punkter.](screens/high_high_kn10.jpg)
+
+### Store og billige boliger
+
+![Store og billige boliger markert i rosa punkter.](screens/low_high_kn10.jpg)
+
+### Små og billige boliger
+
+![Små og billige boliger markert i blå punkter.](screens/low_low_kn10.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
