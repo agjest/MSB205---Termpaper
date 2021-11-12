@@ -148,9 +148,9 @@ attach(asc_b19101_fam_inc)
 
 ```{r}
 asc_b19101_fam_inc <- asc_b19101_fam_inc %>% 
-    mutate(low = (E19101138 + E19101139 + E19101140 + E19101141 + E19101142 + E19101143)) %>% 
-    mutate(mid = (E19101144 + E19101145 + E19101146 + E19101147 + E19101148 + E19101149)) %>% 
-    mutate(high = (E19101150 + E19101151 + E19101152 + E19101153))
+    mutate(low = (E19101138 + E19101139 + E19101140 + E19101141 + E19101142 + E19101143)/E19101137) %>% 
+    mutate(mid = (E19101144 + E19101145 + E19101146 + E19101147 + E19101148 + E19101149)/E19101137) %>% 
+    mutate(high = (E19101150 + E19101151 + E19101152 + E19101153)/E19101137)
 ```
 
 ```{r}
@@ -299,7 +299,138 @@ st_write(kc_houses_env_var_omit, "maps/kc_houses_env_var_omit.gpkg", append = FA
 
 ### Små og billige boliger
 
-![Små og billige boliger markert i blå punkter.](screens/low_low_kn10.jpg)
+![Små og billige boliger markert i blå punkter.](screens/low_low_kn10.jpg){height=80%}
+
+
+### Regresjonstest i Geoda
+
+![Test av regresjonsanalyse i Geoda.](screens/reg_test_geoda.jpg){height=80%}
+
+
+# 6. Hedoniske modeller
+
+## i. Huskarakterisika
+
+```{r}
+attach(kc_houses_env_var_omit)
+```
+
+
+```{r}
+hedon1 <- lm(price ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month)
+```
+
+
+## ii. Huskarakteristika + distanse til cbd + tracts_var
+
+```{r}
+hedon2 <- lm(price ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc)
+```
+
+
+## iii. Huskarakteristika + distanse til cbd + EHD
+
+```{r}
+hedon3 <- lm(price ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + dist_cbd_km + EHD_percen + low + high + year_month)
+```
+
+
+```{r}
+huxreg("Hedon1" = hedon1, "Hedon2" = hedon2, "Hedon3" = hedon3, 
+    error_format = "[{statistic}]",
+    note = "{stars}. T statistic in brackets.")
+```
+
+
+### Plots
+
+```{r}
+hedon1 %>% 
+    plot()
+```
+
+```{r}
+hedon2 %>% 
+    plot()
+```
+
+```{r}
+hedon3 %>% 
+    plot()
+```
+
+# 7. Test av tidsdummyer
+
+
+```{r}
+hedon1 %>% 
+    linearHypothesis(c("year_month2014-06=0", "year_month2014-07=0", "year_month2014-08=0", "year_month2014-09=0", "year_month2014-10=0", "year_month2014-11=0", "year_month2014-12=0", "year_month2015-01=0", "year_month2015-02=0", "year_month2015-03=0", "year_month2015-04=0", "year_month2015-05=0"), white_adjust = hc3)
+```
+
+```{r}
+hedon2 %>% 
+    linearHypothesis(c("year_month2014-06=0", "year_month2014-07=0", "year_month2014-08=0", "year_month2014-09=0", "year_month2014-10=0", "year_month2014-11=0", "year_month2014-12=0", "year_month2015-01=0", "year_month2015-02=0", "year_month2015-03=0", "year_month2015-04=0", "year_month2015-05=0"), white_adjust = hc4)
+```
+
+```{r}
+hedon3 %>% 
+    linearHypothesis(c("year_month2014-06=0", "year_month2014-07=0", "year_month2014-08=0", "year_month2014-09=0", "year_month2014-10=0", "year_month2014-11=0", "year_month2014-12=0", "year_month2015-01=0", "year_month2015-02=0", "year_month2015-03=0", "year_month2015-04=0", "year_month2015-05=0"), white_adjust = hc1)
+```
+
+Ved å teste teste nullhypotesen om at det ikke er forskjell i salgspris basert på salgstidspunkt, så ser vi av F- og p-verdiene at vi kan forkaste $H_0$.
+Det vil si at vi bør beholde tidsdummyene, selv om mange av dem er individuelt usignifikante. 
+Med andre ord så er det forskjell i salgspris ved forskjellig salgstidspunkt.
+
+# 8. Spatial regresjon
+
+```{r}
+kc_house_data_666 <- here("data/kc_house_data_666.gpkg") %>% 
+  st_read() %>% 
+  st_transform(2926)
+```
+
+```{r}
+kc_house_data_666 <-  kc_house_data_666 %>% 
+  mutate(
+    dist_cbd = st_distance(cbd, ., by_element = TRUE),
+    dist_cbd_km = set_units(dist_cbd, km),
+    year_month = substr(date, start = 1, stop = 7))
+```
+
+
+```{r}
+hedon2_seed <- lm(price ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc, data = kc_house_data_666)
+summary(hedon2_seed)
+```
+
+```{r}
+huxreg("Full" = hedon2, "Seed" = hedon2_seed, 
+    error_format = "[{statistic}]",
+    note = "{stars}. T statistic in brackets.")
+```
+
+```{r}
+kc_house_data_666_mat_nb <- knearneigh(kc_house_data_666, k = 3)
+kc_house_data_666_nb <- knn2nb(kc_house_data_666_mat_nb)
+kc_house_data_666_W <- nb2listw(kc_house_data_666_nb, style = "W")
+
+kc_house_data_666_mat_nb10 <- knearneigh(kc_house_data_666, k = 10)
+kc_house_data_666_nb10 <- knn2nb(kc_house_data_666_mat_nb10)
+kc_house_data_666_W10 <- nb2listw(kc_house_data_666_nb10, style = "W")
+```
+
+```{r}
+lm.morantest(hedon2_seed, kc_house_data_666_W)
+lm.morantest(hedon2_seed, kc_house_data_666_W10)
+```
+
+```{r}
+moran.plot(log(kc_house_data_666$price), listw = kc_house_data_666_W, labels = FALSE, pch = 20, cex = 0.3)
+```
+
+```{r}
+moran.plot(log(kc_house_data_666$price), listw = kc_house_data_666_W10, labels = FALSE, pch = 20, cex = 0.3)
+```
 
 
 
@@ -308,11 +439,52 @@ st_write(kc_houses_env_var_omit, "maps/kc_houses_env_var_omit.gpkg", append = FA
 
 
 
+```{r}
+kc_lagrange <- lm.LMtests(hedon2_seed, kc_house_data_666_W, 
+               test=c("LMerr","RLMerr","LMlag","RLMlag","SARMA"))
+kc_lagrange
+```
+
+```{r}
+kc_lagrange <- lm.LMtests(hedon2_seed, kc_house_data_666_W10, 
+               test = c("LMerr","RLMerr","LMlag","RLMlag","SARMA"))
+kc_lagrange
+```
 
 
 
+## iv. Lokale spatiale modeller
 
+```{r, cache=TRUE}
+SDEM_seed <- errorsarlm(log(price) ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc, data = kc_house_data_666, listw = kc_house_data_666_W, Durbin = as.formula(~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc))
+summary(SDEM_seed)
+```
 
+```{r}
+SLX_seed <- lmSLX(log(price) ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc, data = kc_house_data_666, listw = kc_house_data_666_W, Durbin = TRUE)
+summary(SLX_seed)
+```
 
+```{r, cache=TRUE}
+SEM_seed <- errorsarlm(log(price) ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc, data = kc_house_data_666, listw = kc_house_data_666_W, Durbin = FALSE)
+summary(SEM_seed)
+```
 
+```{r}
+LR.Sarlm(SDEM_seed, SEM_seed)
+LR.Sarlm(SDEM_seed, SLX_seed)
+```
+
+```{r}
+LR1.Sarlm(SDEM_seed)
+LR1.Sarlm(SEM_seed)
+```
+
+```{r}
+Hausman.test(SEM_seed) # Har omitted variables
+```
+
+```{r}
+bptest.Sarlm(SEM_seed, studentize = TRUE) # Har heteroskedastisitet
+```
 
