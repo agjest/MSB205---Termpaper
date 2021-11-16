@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.20)  12 NOV 2021 18:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.20)  16 NOV 2021 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,19 +402,35 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \Gin@req@height=\dimen164
 \Gin@req@width=\dimen165
 )
+\cslhangindent=\skip54
+\csllabelwidth=\skip55
+\cslentryspacingunit=\skip56
+(c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count285
+\calc@Bcount=\count286
+\calc@Adimen=\dimen166
+\calc@Bdimen=\dimen167
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count287
+\calc@Cskip=\skip59
+)
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr
 .sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip54
-\f@nch@O@elh=\skip55
-\f@nch@O@erh=\skip56
-\f@nch@O@olh=\skip57
-\f@nch@O@orh=\skip58
-\f@nch@O@elf=\skip59
-\f@nch@O@erf=\skip60
-\f@nch@O@olf=\skip61
-\f@nch@O@orf=\skip62
+\f@nch@headwidth=\skip60
+\f@nch@O@elh=\skip61
+\f@nch@O@erh=\skip62
+\f@nch@O@olh=\skip63
+\f@nch@O@orh=\skip64
+\f@nch@O@elf=\skip65
+\f@nch@O@erf=\skip66
+\f@nch@O@olf=\skip67
+\f@nch@O@orf=\skip68
 )
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sectsty/sectsty.s
 ty
@@ -432,17 +448,17 @@ LaTeX Warning: Command \underline  has changed.
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titling/titling.s
 ty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip63
-\thanksmargin=\skip64
-\droptitle=\skip65
+\thanksmarkwidth=\skip69
+\thanksmargin=\skip70
+\droptitle=\skip71
 ) (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen166
+\col@sep=\dimen168
 \ar@mcellbox=\box53
-\extrarowheight=\dimen167
+\extrarowheight=\dimen169
 \NC@list=\toks25
-\extratabsurround=\skip66
-\backup@length=\skip67
+\extratabsurround=\skip72
+\backup@length=\skip73
 \ar@cellbox=\box54
 )
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.s
@@ -452,43 +468,43 @@ Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.
 sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen168
-\captionmargin@=\dimen169
-\captionwidth=\dimen170
-\caption@tempdima=\dimen171
-\caption@indent=\dimen172
-\caption@parindent=\dimen173
-\caption@hangindent=\dimen174
+\captionmargin=\dimen170
+\captionmargin@=\dimen171
+\captionwidth=\dimen172
+\caption@tempdima=\dimen173
+\caption@indent=\dimen174
+\caption@parindent=\dimen175
+\caption@hangindent=\dimen176
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count285
-\c@continuedfloat=\count286
+\c@caption@flags=\count288
+\c@continuedfloat=\count289
 Package caption Info: hyperref package is loaded.
 )
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/siunitx/siunitx.s
 ty
 Package: siunitx 2021-10-26 v3.0.34 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen175
+\l__siunitx_angle_tmp_dim=\dimen177
 \l__siunitx_angle_marker_box=\box55
 \l__siunitx_angle_unit_box=\box56
-\l__siunitx_compound_count_int=\count287
-\l__siunitx_number_exponent_fixed_int=\count288
-\l__siunitx_number_min_decimal_int=\count289
-\l__siunitx_number_min_integer_int=\count290
-\l__siunitx_number_round_precision_int=\count291
-\l__siunitx_number_group_minimum_int=\count292
+\l__siunitx_compound_count_int=\count290
+\l__siunitx_number_exponent_fixed_int=\count291
+\l__siunitx_number_min_decimal_int=\count292
+\l__siunitx_number_min_integer_int=\count293
+\l__siunitx_number_round_precision_int=\count294
+\l__siunitx_number_group_minimum_int=\count295
 \l__siunitx_table_tmp_box=\box57
-\l__siunitx_table_tmp_dim=\dimen176
-\l__siunitx_table_column_width_dim=\dimen177
+\l__siunitx_table_tmp_dim=\dimen178
+\l__siunitx_table_column_width_dim=\dimen179
 \l__siunitx_table_integer_box=\box58
 \l__siunitx_table_decimal_box=\box59
 \l__siunitx_table_before_box=\box60
 \l__siunitx_table_after_box=\box61
-\l__siunitx_table_before_dim=\dimen178
-\l__siunitx_table_carry_dim=\dimen179
-\l__siunitx_unit_tmp_int=\count293
-\l__siunitx_unit_position_int=\count294
-\l__siunitx_unit_total_int=\count295
+\l__siunitx_table_before_dim=\dimen180
+\l__siunitx_table_carry_dim=\dimen181
+\l__siunitx_unit_tmp_int=\count296
+\l__siunitx_unit_position_int=\count297
+\l__siunitx_unit_total_int=\count298
 
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys
 2e/l3keys2e.sty
@@ -499,7 +515,7 @@ Package: expl3 2021-10-18 L3 programming layer (loader)
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backe
 nd-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count296
+\l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box62
 ))
 Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
@@ -507,43 +523,31 @@ Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
 y
 \UL@box=\box63
 \UL@hyphenbox=\box64
-\UL@skip=\skip68
+\UL@skip=\skip74
 \UL@hook=\toks26
-\UL@height=\dimen180
-\UL@pe=\count297
-\UL@pixel=\dimen181
+\UL@height=\dimen182
+\UL@pe=\count300
+\UL@pixel=\dimen183
 \ULC@box=\box65
 Package: ulem 2019/11/18
-\ULdepth=\dimen182
+\ULdepth=\dimen184
 )
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl
 .sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \everycr=\toks27
-\minrowclearance=\skip69
+\minrowclearance=\skip75
 )
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow
 .sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip70
-\multirow@cntb=\count298
-\multirow@dima=\skip71
-\bigstrutjot=\dimen183
+\multirow@colwidth=\skip76
+\multirow@cntb=\count301
+\multirow@dima=\skip77
+\bigstrutjot=\dimen185
 ) (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/hhline.st
 y
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
-) (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count299
-\calc@Bcount=\count300
-\calc@Adimen=\dimen184
-\calc@Bdimen=\dimen185
-\calc@Askip=\skip72
-\calc@Bskip=\skip73
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count301
-\calc@Cskip=\skip74
 )
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/tabularx.st
 y
@@ -652,24 +656,24 @@ Language: norsk 2012/08/06 v2.0i Norsk support from the babel system
 )) (./MSB205_King_County_Silje_Sofie_Karl-Gunnnar.aux)
 \openout1 = `MSB205_King_County_Silje_Sofie_Karl-Gunnnar.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
 
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epst
 opdf-base.sty
@@ -690,7 +694,7 @@ pdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 159.
+Package hyperref Info: Link coloring OFF on input line 182.
 
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.
 sty
@@ -706,9 +710,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count307
 )
-LaTeX Info: Redefining \ref on input line 159.
-LaTeX Info: Redefining \pageref on input line 159.
-LaTeX Info: Redefining \nameref on input line 159.
+LaTeX Info: Redefining \ref on input line 182.
+LaTeX Info: Redefining \pageref on input line 182.
+LaTeX Info: Redefining \nameref on input line 182.
 (./MSB205_King_County_Silje_Sofie_Karl-Gunnnar.out) (./MSB205_King_County_Silje
 _Sofie_Karl-Gunnnar.out)
 \@outlinefile=\write4
@@ -752,43 +756,43 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<hvl.jpg, id=100, 1204.5pt x 424.58624pt>
+<hvl.jpg, id=104, 1204.5pt x 424.58624pt>
 File: hvl.jpg Graphic file (type jpg)
 <use hvl.jpg>
-Package pdftex.def Info: hvl.jpg  used on input line 160.
+Package pdftex.def Info: hvl.jpg  used on input line 183.
 (pdftex.def)             Requested size: 216.80064pt x 76.42223pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-60.
+83.
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-60.
+83.
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-160.
+183.
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-160.
+183.
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 160.
+(Font)              <14.4> on input line 183.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 160.
+(Font)              <10> on input line 183.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 160.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 160
+(Font)              <7> on input line 183.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 183
 .
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 160
+LaTeX Font Info:    Trying to load font information for U+msb on input line 183
 .
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -823,24 +827,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-78.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+82.
 (c:/Users/bruker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (42.77023pt too wide) in paragraph at lines 193--193
+Overfull \hbox (42.77023pt too wide) in paragraph at lines 297--297
 []\T1/lmtt/m/n/12 ## -- Column specification ----------------------------------
 ----------------------[] 
  []
 
 
-Overfull \hbox (36.58823pt too wide) in paragraph at lines 193--193
+Overfull \hbox (36.58823pt too wide) in paragraph at lines 297--297
 []\T1/lmtt/m/n/12 ## dbl  (19): price, bedrooms, bathrooms, sqft_living, sqft_l
 ot, floors, waterf...[] 
  []
 
 
-Overfull \hbox (48.94524pt too wide) in paragraph at lines 199--199
+Overfull \hbox (48.94524pt too wide) in paragraph at lines 303--303
 []\T1/lmtt/m/n/12 ## i Specify the column types or set `show_col_types = FALSE`
  to quiet this message.[] 
  []
@@ -853,8 +875,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]
-Overfull \hbox (1882.92114pt too wide) in paragraph at lines 280--280
+[6]
+Overfull \hbox (1882.92114pt too wide) in paragraph at lines 384--384
 []\T1/lmtt/m/n/12 ## Reading layer `WADOH_Environmental_Health_Disparities_Inde
 x_Calculated_for_King_County___wadohehdindex_area' from data source `C:\Users\b
 ruker\Documents\Skole 2020\MSB205 - Termpaper\maps\WADOH_Environmental_Health_D
@@ -864,7 +886,7 @@ shp'[]
  []
 
 
-Overfull \hbox (11.88121pt too wide) in paragraph at lines 280--280
+Overfull \hbox (11.88121pt too wide) in paragraph at lines 384--384
 []\T1/lmtt/m/n/12 ## Bounding box:  xmin: -122.528 ymin: 47.08446 xmax: -121.06
 57 ymax: 47.78058[] 
  []
@@ -877,7 +899,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5]
+[7]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -886,8 +908,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6]
-Overfull \hbox (85.99525pt too wide) in paragraph at lines 380--380
+[8]
+Overfull \hbox (85.99525pt too wide) in paragraph at lines 484--484
 []\T1/lmtt/m/n/12 ##   `C:\Users\bruker\Documents\Skole 2020\MSB205 - Termpaper
 \maps\censusSHP\tracts10.shp'[] 
  []
@@ -900,8 +922,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7]
-Overfull \hbox (123.04527pt too wide) in paragraph at lines 399--399
+[9]
+Overfull \hbox (123.04527pt too wide) in paragraph at lines 503--503
 []\T1/lmtt/m/n/12 ##   `C:\Users\bruker\Documents\Skole 2020\MSB205 - Termpaper
 \maps\censusSHP\tracts10_shore.shp'[] 
  []
@@ -914,7 +936,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]
+[10]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -923,14 +945,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9]
-Overfull \hbox (11.88121pt too wide) in paragraph at lines 484--484
+[11]
+Overfull \hbox (11.88121pt too wide) in paragraph at lines 588--588
 []\T1/lmtt/m/n/12 ##  Class :character   1st Qu.:   19330041   1st Qu.: 20586  
  Class :character[] 
  []
 
 
-Overfull \hbox (11.88121pt too wide) in paragraph at lines 484--484
+Overfull \hbox (11.88121pt too wide) in paragraph at lines 588--588
 []\T1/lmtt/m/n/12 ##  Mode  :character   Median :   33617571   Median : 29573  
  Mode  :character[] 
  []
@@ -943,8 +965,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10]
-Overfull \hbox (79.82025pt too wide) in paragraph at lines 516--516
+[12]
+Overfull \hbox (79.82025pt too wide) in paragraph at lines 620--620
 []\T1/lmtt/m/n/12 ## Writing layer `kc_tracts10' to data source `maps/kc_tracts
 10.gpkg' using driver `GPKG'[] 
  []
@@ -957,7 +979,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
+[13]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -966,14 +988,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12]
-Overfull \hbox (11.88121pt too wide) in paragraph at lines 663--663
+[14]
+Overfull \hbox (11.88121pt too wide) in paragraph at lines 767--767
 []\T1/lmtt/m/n/12 ##  Class :character   1st Qu.:   19330041   1st Qu.: 20586  
  Class :character[] 
  []
 
 
-Overfull \hbox (11.88121pt too wide) in paragraph at lines 663--663
+Overfull \hbox (11.88121pt too wide) in paragraph at lines 767--767
 []\T1/lmtt/m/n/12 ##  Mode  :character   Median :   33617571   Median : 29573  
  Mode  :character[] 
  []
@@ -989,7 +1011,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1000,7 +1022,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14]
+[16]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1009,14 +1031,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15]
-Overfull \hbox (5.6852pt too wide) in paragraph at lines 808--808
+[17]
+Overfull \hbox (5.6852pt too wide) in paragraph at lines 912--912
 []\T1/lmtt/m/n/12 ##  epsg:2926    :    0   1st Qu.: 32099   1st Qu.: 9.7837   
 Class :character[] 
  []
 
 
-Overfull \hbox (5.71321pt too wide) in paragraph at lines 808--808
+Overfull \hbox (5.71321pt too wide) in paragraph at lines 912--912
 []\T1/lmtt/m/n/12 ##  +proj=lcc ...:    0   Median : 54280   Median :16.5447   
 Mode  :character[] 
  []
@@ -1032,7 +1054,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16]
+[18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1043,38 +1065,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17]
-Overfull \hbox (5.6852pt too wide) in paragraph at lines 808--808
+[19]
+Overfull \hbox (5.6852pt too wide) in paragraph at lines 912--912
 []\T1/lmtt/m/n/12 ##  Min.   :    2791880   Min.   :  8012   Min.   :0.009298  
  Min.   :0.06768[] 
  []
 
 
-Overfull \hbox (5.6992pt too wide) in paragraph at lines 808--808
+Overfull \hbox (5.6992pt too wide) in paragraph at lines 912--912
 []\T1/lmtt/m/n/12 ##  1st Qu.:   22811341   1st Qu.: 23204   1st Qu.:0.047091  
  1st Qu.:0.21668[] 
  []
 
 
-Overfull \hbox (5.6852pt too wide) in paragraph at lines 808--808
+Overfull \hbox (5.6852pt too wide) in paragraph at lines 912--912
 []\T1/lmtt/m/n/12 ##  Median :   34452366   Median : 31185   Median :0.074766  
  Median :0.30219[] 
  []
 
 
-Overfull \hbox (5.7062pt too wide) in paragraph at lines 808--808
+Overfull \hbox (5.7062pt too wide) in paragraph at lines 912--912
 []\T1/lmtt/m/n/12 ##  Mean   :  175045321   Mean   : 46861   Mean   :0.100082  
  Mean   :0.31115[] 
  []
 
 
-Overfull \hbox (5.6852pt too wide) in paragraph at lines 808--808
+Overfull \hbox (5.6852pt too wide) in paragraph at lines 912--912
 []\T1/lmtt/m/n/12 ##  3rd Qu.:   66278818   3rd Qu.: 46624   3rd Qu.:0.133557  
  3rd Qu.:0.39313[] 
  []
 
 
-Overfull \hbox (5.7062pt too wide) in paragraph at lines 808--808
+Overfull \hbox (5.7062pt too wide) in paragraph at lines 912--912
 []\T1/lmtt/m/n/12 ##  Max.   :15258321253   Max.   :738820   Max.   :0.501433  
  Max.   :0.67904[] 
  []
@@ -1090,11 +1112,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]
-<screens/komgrense.jpg, id=212, 1156.32pt x 500.46976pt>
+[20]
+<screens/komgrense.jpg, id=226, 1156.32pt x 500.46976pt>
 File: screens/komgrense.jpg Graphic file (type jpg)
 <use screens/komgrense.jpg>
-Package pdftex.def Info: screens/komgrense.jpg  used on input line 816.
+Package pdftex.def Info: screens/komgrense.jpg  used on input line 920.
 (pdftex.def)             Requested size: 469.75385pt x 203.31532pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1104,11 +1126,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19]
-<screens/vannlinje.jpg, id=218, 1153.911pt x 519.1395pt>
+[21]
+<screens/vannlinje.jpg, id=231, 1153.911pt x 519.1395pt>
 File: screens/vannlinje.jpg Graphic file (type jpg)
 <use screens/vannlinje.jpg>
-Package pdftex.def Info: screens/vannlinje.jpg  used on input line 827.
+Package pdftex.def Info: screens/vannlinje.jpg  used on input line 931.
 (pdftex.def)             Requested size: 469.74359pt x 211.33557pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1118,91 +1140,139 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20 <./screens/komgrense.jpg> <./screens/vannlinje.jpg>]
-<screens/knear3.jpg, id=225, 1156.32pt x 613.0905pt>
+[22 <./screens/komgrense.jpg> <./screens/vannlinje.jpg>]
+<screens/knear3.jpg, id=238, 1156.32pt x 613.0905pt>
 File: screens/knear3.jpg Graphic file (type jpg)
 <use screens/knear3.jpg>
-Package pdftex.def Info: screens/knear3.jpg  used on input line 883.
+Package pdftex.def Info: screens/knear3.jpg  used on input line 985.
 (pdftex.def)             Requested size: 469.75385pt x 249.0674pt.
-<screens/high_low_kn3.jpg, id=226, 1156.32pt x 613.0905pt>
+
+Underfull \vbox (badness 7777) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
+<screens/high_low_kn3.jpg, id=245, 1156.32pt x 613.0905pt>
 File: screens/high_low_kn3.jpg Graphic file (type jpg)
 <use screens/high_low_kn3.jpg>
-Package pdftex.def Info: screens/high_low_kn3.jpg  used on input line 892.
+Package pdftex.def Info: screens/high_low_kn3.jpg  used on input line 992.
 (pdftex.def)             Requested size: 469.75385pt x 249.0674pt.
-<screens/high_high_kn3.jpg, id=227, 1156.32pt x 614.295pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24 <./screens/knear3.jpg> <./screens/high_low_kn3.jpg>]
+<screens/high_high_kn3.jpg, id=252, 1156.32pt x 614.295pt>
 File: screens/high_high_kn3.jpg Graphic file (type jpg)
 <use screens/high_high_kn3.jpg>
-Package pdftex.def Info: screens/high_high_kn3.jpg  used on input line 901.
+Package pdftex.def Info: screens/high_high_kn3.jpg  used on input line 1001.
 (pdftex.def)             Requested size: 469.75385pt x 249.55672pt.
-<screens/low_high_kn3.jpg, id=228, 1156.32pt x 614.295pt>
+<screens/low_high_kn3.jpg, id=253, 1156.32pt x 614.295pt>
 File: screens/low_high_kn3.jpg Graphic file (type jpg)
 <use screens/low_high_kn3.jpg>
-Package pdftex.def Info: screens/low_high_kn3.jpg  used on input line 911.
+Package pdftex.def Info: screens/low_high_kn3.jpg  used on input line 1011.
 (pdftex.def)             Requested size: 469.75385pt x 249.55672pt.
-<screens/low_low_kn3.jpg, id=229, 1156.32pt x 612.48825pt>
+<screens/low_low_kn3.jpg, id=254, 1156.32pt x 612.48825pt>
 File: screens/low_low_kn3.jpg Graphic file (type jpg)
 <use screens/low_low_kn3.jpg>
-Package pdftex.def Info: screens/low_low_kn3.jpg  used on input line 920.
+Package pdftex.def Info: screens/low_low_kn3.jpg  used on input line 1020.
 (pdftex.def)             Requested size: 469.75385pt x 248.82274pt.
-<screens/knear10.jpg, id=230, 1156.32pt x 613.0905pt>
+<screens/knear10.jpg, id=255, 1156.32pt x 613.0905pt>
 File: screens/knear10.jpg Graphic file (type jpg)
 <use screens/knear10.jpg>
-Package pdftex.def Info: screens/knear10.jpg  used on input line 929.
+Package pdftex.def Info: screens/knear10.jpg  used on input line 1029.
 (pdftex.def)             Requested size: 469.75385pt x 249.0674pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[21]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[22 <./screens/knear3.jpg> <./screens/high_low_kn3.jpg>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[23 <./screens/high_high_kn3.jpg> <./screens/low_high_kn3.jpg>]
-<screens/high_low_kn10.jpg, id=253, 1156.32pt x 613.0905pt>
+<screens/high_low_kn10.jpg, id=256, 1156.32pt x 613.0905pt>
 File: screens/high_low_kn10.jpg Graphic file (type jpg)
 <use screens/high_low_kn10.jpg>
-Package pdftex.def Info: screens/high_low_kn10.jpg  used on input line 938.
+Package pdftex.def Info: screens/high_low_kn10.jpg  used on input line 1038.
 (pdftex.def)             Requested size: 469.75385pt x 249.0674pt.
-<screens/high_high_kn10.jpg, id=254, 1156.32pt x 613.0905pt>
+<screens/high_high_kn10.jpg, id=257, 1156.32pt x 613.0905pt>
 File: screens/high_high_kn10.jpg Graphic file (type jpg)
 <use screens/high_high_kn10.jpg>
-Package pdftex.def Info: screens/high_high_kn10.jpg  used on input line 947.
+Package pdftex.def Info: screens/high_high_kn10.jpg  used on input line 1047.
 (pdftex.def)             Requested size: 469.75385pt x 249.0674pt.
-<screens/low_high_kn10.jpg, id=255, 1156.32pt x 613.0905pt>
+<screens/low_high_kn10.jpg, id=258, 1156.32pt x 613.0905pt>
 File: screens/low_high_kn10.jpg Graphic file (type jpg)
 <use screens/low_high_kn10.jpg>
-Package pdftex.def Info: screens/low_high_kn10.jpg  used on input line 957.
+Package pdftex.def Info: screens/low_high_kn10.jpg  used on input line 1057.
 (pdftex.def)             Requested size: 469.75385pt x 249.0674pt.
-<screens/low_low_kn10.jpg, id=256, 1156.32pt x 614.295pt>
+<screens/low_low_kn10.jpg, id=259, 1156.32pt x 614.295pt>
 File: screens/low_low_kn10.jpg Graphic file (type jpg)
 <use screens/low_low_kn10.jpg>
-Package pdftex.def Info: screens/low_low_kn10.jpg  used on input line 967.
+Package pdftex.def Info: screens/low_low_kn10.jpg  used on input line 1067.
 (pdftex.def)             Requested size: 469.75385pt x 249.55672pt.
-<screens/reg_test_geoda.jpg, id=257, 726.91576pt x 606.46574pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25 <./screens/high_high_kn3.jpg>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26 <./screens/low_high_kn3.jpg> <./screens/low_low_kn3.jpg>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27 <./screens/knear10.jpg> <./screens/high_low_kn10.jpg>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./screens/high_high_kn10.jpg> <./screens/low_high_kn10.jpg>]
+<screens/reg_test_geoda.jpg, id=293, 726.91576pt x 606.46574pt>
 File: screens/reg_test_geoda.jpg Graphic file (type jpg)
 <use screens/reg_test_geoda.jpg>
-Package pdftex.def Info: screens/reg_test_geoda.jpg  used on input line 976.
-(pdftex.def)             Requested size: 469.74995pt x 391.91234pt.
+Package pdftex.def Info: screens/reg_test_geoda.jpg  used on input line 1096.
+(pdftex.def)             Requested size: 389.82225pt x 325.22867pt.
 
-Underfull \vbox (badness 2213) has occurred while \output is active []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29 <./screens/low_low_kn10.jpg>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30 <./screens/reg_test_geoda.jpg>]
+
+LaTeX Warning: Float too large for page by 1769.95253pt on input line 2106.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1212,133 +1282,59 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24 <./screens/low_low_kn3.jpg>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[25 <./screens/knear10.jpg> <./screens/high_low_kn10.jpg>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[26 <./screens/high_high_kn10.jpg> <./screens/low_high_kn10.jpg>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[27 <./screens/low_low_kn10.jpg>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[28 <./screens/reg_test_geoda.jpg>]
-
-LaTeX Warning: Float too large for page by 1769.95253pt on input line 1986.
-
+[31]
 <MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-3-1.pdf, id=296, 469.755pt x 325.215pt>
+3-1.pdf, id=315, 469.755pt x 325.215pt>
 File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
 unk-33-1.pdf Graphic file (type pdf)
 <use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
 nk-33-1.pdf>
 Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-33-1.pdf  used on input line 1999.
+re-latex/unnamed-chunk-33-1.pdf  used on input line 2119.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 <MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-3-2.pdf, id=297, 469.755pt x 325.215pt>
+3-2.pdf, id=316, 469.755pt x 325.215pt>
 File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
 unk-33-2.pdf Graphic file (type pdf)
 <use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
 nk-33-2.pdf>
 Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-33-2.pdf  used on input line 2000.
+re-latex/unnamed-chunk-33-2.pdf  used on input line 2120.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 <MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-3-3.pdf, id=298, 469.755pt x 325.215pt>
+3-3.pdf, id=317, 469.755pt x 325.215pt>
 File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
 unk-33-3.pdf Graphic file (type pdf)
 <use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
 nk-33-3.pdf>
 Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-33-3.pdf  used on input line 2001.
+re-latex/unnamed-chunk-33-3.pdf  used on input line 2121.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 <MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-3-4.pdf, id=299, 469.755pt x 325.215pt>
+3-4.pdf, id=318, 469.755pt x 325.215pt>
 File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
 unk-33-4.pdf Graphic file (type pdf)
 <use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
 nk-33-4.pdf>
 Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-33-4.pdf  used on input line 2002.
+re-latex/unnamed-chunk-33-4.pdf  used on input line 2122.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1999--2003
+Underfull \hbox (badness 10000) in paragraph at lines 2119--2123
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1999--2003
+Underfull \hbox (badness 10000) in paragraph at lines 2119--2123
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1999--2003
+Underfull \hbox (badness 10000) in paragraph at lines 2119--2123
 []
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[30 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
-hunk-33-1.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[31 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
-hunk-33-2.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1350,59 +1346,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
-hunk-33-3.pdf>]
-<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-4-1.pdf, id=334, 469.755pt x 325.215pt>
-File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
-unk-34-1.pdf Graphic file (type pdf)
-<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
-nk-34-1.pdf>
-Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-34-1.pdf  used on input line 2011.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-4-2.pdf, id=335, 469.755pt x 325.215pt>
-File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
-unk-34-2.pdf Graphic file (type pdf)
-<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
-nk-34-2.pdf>
-Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-34-2.pdf  used on input line 2012.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-4-3.pdf, id=336, 469.755pt x 325.215pt>
-File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
-unk-34-3.pdf Graphic file (type pdf)
-<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
-nk-34-3.pdf>
-Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-34-3.pdf  used on input line 2013.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-4-4.pdf, id=337, 469.755pt x 325.215pt>
-File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
-unk-34-4.pdf Graphic file (type pdf)
-<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
-nk-34-4.pdf>
-Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-34-4.pdf  used on input line 2014.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2011--2015
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2011--2015
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2011--2015
-[]
- []
-
-
+hunk-33-1.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1414,7 +1358,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
-hunk-33-4.pdf>]
+hunk-33-2.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1426,7 +1370,59 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
-hunk-34-1.pdf>]
+hunk-33-3.pdf>]
+<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
+4-1.pdf, id=346, 469.755pt x 325.215pt>
+File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
+unk-34-1.pdf Graphic file (type pdf)
+<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
+nk-34-1.pdf>
+Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
+re-latex/unnamed-chunk-34-1.pdf  used on input line 2131.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
+4-2.pdf, id=347, 469.755pt x 325.215pt>
+File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
+unk-34-2.pdf Graphic file (type pdf)
+<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
+nk-34-2.pdf>
+Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
+re-latex/unnamed-chunk-34-2.pdf  used on input line 2132.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
+4-3.pdf, id=348, 469.755pt x 325.215pt>
+File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
+unk-34-3.pdf Graphic file (type pdf)
+<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
+nk-34-3.pdf>
+Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
+re-latex/unnamed-chunk-34-3.pdf  used on input line 2133.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
+4-4.pdf, id=349, 469.755pt x 325.215pt>
+File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
+unk-34-4.pdf Graphic file (type pdf)
+<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
+nk-34-4.pdf>
+Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
+re-latex/unnamed-chunk-34-4.pdf  used on input line 2134.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2131--2135
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2131--2135
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2131--2135
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1438,7 +1434,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
-hunk-34-2.pdf>]
+hunk-33-4.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1450,59 +1446,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [36 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
-hunk-34-3.pdf>]
-<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-5-1.pdf, id=374, 469.755pt x 325.215pt>
-File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
-unk-35-1.pdf Graphic file (type pdf)
-<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
-nk-35-1.pdf>
-Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-35-1.pdf  used on input line 2023.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-5-2.pdf, id=375, 469.755pt x 325.215pt>
-File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
-unk-35-2.pdf Graphic file (type pdf)
-<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
-nk-35-2.pdf>
-Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-35-2.pdf  used on input line 2024.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-5-3.pdf, id=376, 469.755pt x 325.215pt>
-File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
-unk-35-3.pdf Graphic file (type pdf)
-<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
-nk-35-3.pdf>
-Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-35-3.pdf  used on input line 2025.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
-5-4.pdf, id=377, 469.755pt x 325.215pt>
-File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
-unk-35-4.pdf Graphic file (type pdf)
-<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
-nk-35-4.pdf>
-Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-35-4.pdf  used on input line 2026.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2023--2027
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2023--2027
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2023--2027
-[]
- []
-
-
+hunk-34-1.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1514,7 +1458,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [37 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
-hunk-34-4.pdf>]
+hunk-34-2.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1526,7 +1470,59 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
-hunk-35-1.pdf>]
+hunk-34-3.pdf>]
+<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
+5-1.pdf, id=387, 469.755pt x 325.215pt>
+File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
+unk-35-1.pdf Graphic file (type pdf)
+<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
+nk-35-1.pdf>
+Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
+re-latex/unnamed-chunk-35-1.pdf  used on input line 2143.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
+5-2.pdf, id=388, 469.755pt x 325.215pt>
+File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
+unk-35-2.pdf Graphic file (type pdf)
+<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
+nk-35-2.pdf>
+Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
+re-latex/unnamed-chunk-35-2.pdf  used on input line 2144.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
+5-3.pdf, id=389, 469.755pt x 325.215pt>
+File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
+unk-35-3.pdf Graphic file (type pdf)
+<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
+nk-35-3.pdf>
+Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
+re-latex/unnamed-chunk-35-3.pdf  used on input line 2145.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-3
+5-4.pdf, id=390, 469.755pt x 325.215pt>
+File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
+unk-35-4.pdf Graphic file (type pdf)
+<use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
+nk-35-4.pdf>
+Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
+re-latex/unnamed-chunk-35-4.pdf  used on input line 2146.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2143--2147
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2143--2147
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2143--2147
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1538,7 +1534,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
-hunk-35-2.pdf>]
+hunk-34-4.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1550,7 +1546,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [40 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
-hunk-35-3.pdf>]
+hunk-35-1.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1560,8 +1558,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [41 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
+hunk-35-2.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
+hunk-35-3.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
 hunk-35-4.pdf>]
-Overfull \hbox (85.97424pt too wide) in paragraph at lines 2243--2243
+Overfull \hbox (85.97424pt too wide) in paragraph at lines 2363--2363
 []\T1/lmtt/m/n/12 ##   `C:\Users\bruker\Documents\Skole 2020\MSB205 - Termpaper
 \data\kc_house_data_666.gpkg'[] 
  []
@@ -1574,80 +1594,80 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42]
-Overfull \hbox (5.66418pt too wide) in paragraph at lines 2332--2332
+[44]
+Overfull \hbox (5.66418pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## (Intercept)       1011683.5363  483523.6960   2.092       
       0.036549 *[] 
  []
 
 
-Overfull \hbox (5.71321pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (5.71321pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## bedrooms           -12240.3523    5432.7890  -2.253       
       0.024375 *[] 
  []
 
 
-Overfull \hbox (18.04921pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.04921pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## sqft_living           130.2123      13.0787   9.956 < 0.00
 00000000000002 ***[] 
  []
 
 
-Overfull \hbox (18.04921pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.04921pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## sqft_living15          54.1112       9.7513   5.549     0.
 00000003293740 ***[] 
  []
 
 
-Overfull \hbox (5.6852pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (5.6852pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## sqft_lot                0.3728       0.1601   2.329       
       0.019961 *[] 
  []
 
 
-Overfull \hbox (18.0352pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.0352pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## sqft_above             56.9936      12.8872   4.423     0.
 00001033428568 ***[] 
  []
 
 
-Overfull \hbox (18.0422pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.0422pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## floors             -39713.6278   11410.6139  -3.480       
       0.000512 ***[] 
  []
 
 
-Overfull \hbox (18.05621pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.05621pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## grade               64413.0215    6312.2151  10.205 < 0.00
 00000000000002 ***[] 
  []
 
 
-Overfull \hbox (11.8532pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (11.8532pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## yr_built             -695.4630     226.2945  -3.073       
       0.002149 **[] 
  []
 
 
-Overfull \hbox (18.0282pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.0282pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## yr_renovated           36.1652       9.6810   3.736       
       0.000193 ***[] 
  []
 
 
-Overfull \hbox (18.0282pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.0282pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## waterfront         661281.9284   61200.9928  10.805 < 0.00
 00000000000002 ***[] 
  []
 
 
-Overfull \hbox (18.0352pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.0352pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## condition           29052.8218    6315.5188   4.600     0.
 00000451216293 ***[] 
  []
 
 
-Overfull \hbox (18.0422pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.0422pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## view                51607.5602    5900.1276   8.747 < 0.00
 00000000000002 ***[] 
  []
@@ -1663,86 +1683,86 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43]
-Overfull \hbox (11.8742pt too wide) in paragraph at lines 2332--2332
+[45]
+Overfull \hbox (11.8742pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## year_month2015-03   51293.6045   18020.0104   2.846       
       0.004470 **[] 
  []
 
 
-Overfull \hbox (11.88821pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (11.88821pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## year_month2015-04   56233.2747   17304.7818   3.250       
       0.001177 **[] 
  []
 
 
-Overfull \hbox (11.8532pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (11.8532pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## year_month2015-05   77933.2927   26182.0688   2.977       
       0.002953 **[] 
  []
 
 
-Overfull \hbox (18.0422pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.0422pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## dist_cbd_km        -11139.0637    1180.5133  -9.436 < 0.00
 00000000000002 ***[] 
  []
 
 
-Overfull \hbox (5.6922pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (5.6922pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## linguist_2           2490.1822    1036.3925   2.403       
       0.016373 *[] 
  []
 
 
-Overfull \hbox (18.00719pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.00719pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## POC_percen          -2663.3975     606.2133  -4.393     0.
 00001179796743 ***[] 
  []
 
 
-Overfull \hbox (18.0352pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.0352pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## facilities          87220.6894   12452.9650   7.004     0.
 00000000000349 ***[] 
  []
 
 
-Overfull \hbox (5.67119pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (5.67119pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## wastewater         -96105.4192   51765.9052  -1.857       
       0.063539 .[] 
  []
 
 
-Overfull \hbox (5.7062pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (5.7062pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## diesel               1013.0853     452.4950   2.239       
       0.025284 *[] 
  []
 
 
-Overfull \hbox (11.88821pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (11.88821pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## transporta         -11371.1085    4142.5825  -2.745       
       0.006112 **[] 
  []
 
 
-Overfull \hbox (5.6992pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (5.6992pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## ozone                8541.1721    3792.6090   2.252       
       0.024438 *[] 
  []
 
 
-Overfull \hbox (18.0352pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (18.0352pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## toxic_rele             -2.3194       0.3679  -6.304     0.
 00000000036332 ***[] 
  []
 
 
-Overfull \hbox (11.88121pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (11.88121pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## hazardous_        -225513.5811   81265.2124  -2.775       
       0.005576 **[] 
  []
 
 
-Overfull \hbox (5.6922pt too wide) in paragraph at lines 2332--2332
+Overfull \hbox (5.6922pt too wide) in paragraph at lines 2452--2452
 []\T1/lmtt/m/n/12 ## socio_perc          -1196.4012     488.2249  -2.451       
       0.014359 *[] 
  []
@@ -1758,45 +1778,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44]
-
-LaTeX Warning: Float too large for page by 1630.45354pt on input line 3143.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[45]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [46]
+
+LaTeX Warning: Float too large for page by 1630.45354pt on input line 3263.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48]
 <MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-4
-5-1.pdf, id=450, 469.755pt x 325.215pt>
+5-1.pdf, id=462, 469.755pt x 325.215pt>
 File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
 unk-45-1.pdf Graphic file (type pdf)
 <use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
 nk-45-1.pdf>
 Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-45-1.pdf  used on input line 3220.
+re-latex/unnamed-chunk-45-1.pdf  used on input line 3340.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 <MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chunk-4
-6-1.pdf, id=451, 469.755pt x 325.215pt>
+6-1.pdf, id=463, 469.755pt x 325.215pt>
 File: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-ch
 unk-46-1.pdf Graphic file (type pdf)
 <use MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-chu
 nk-46-1.pdf>
 Package pdftex.def Info: MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figu
-re-latex/unnamed-chunk-46-1.pdf  used on input line 3228.
+re-latex/unnamed-chunk-46-1.pdf  used on input line 3348.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1809,7 +1829,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
+[49 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
 hunk-45-1.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1819,30 +1839,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
+[50 <./MSB205_King_County_Silje_Sofie_Karl-Gunnnar_files/figure-latex/unnamed-c
 hunk-46-1.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[49]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[50]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1863,7 +1863,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [52]
-Overfull \hbox (11.89522pt too wide) in paragraph at lines 3526--3526
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54]
+Overfull \hbox (11.89522pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## Call:errorsarlm(formula = log(price) ~ bedrooms + bathroom
 s + sqft_living +[] 
  []
@@ -1876,62 +1896,62 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53]
-Overfull \hbox (104.47824pt too wide) in paragraph at lines 3526--3526
+[55]
+Overfull \hbox (104.47824pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ##     data = kc_house_data_666, listw = kc_house_data_666_W,
  Durbin = as.formula(~bedrooms +[] 
  []
 
 
-Overfull \hbox (24.24522pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.24522pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ##                         Estimate     Std. Error z value   
            Pr(>|z|)[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## (Intercept)       13.38189281681  1.02867692193 13.0088 < 
 0.00000000000000022[] 
  []
 
 
-Overfull \hbox (24.17519pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.17519pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## bedrooms           0.01193846135  0.00599150395  1.9926   
           0.0463091[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## bathrooms          0.02782013442  0.01063596004  2.6157   
           0.0089053[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## sqft_living        0.00014105513  0.00001439789  9.7969 < 
 0.00000000000000022[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## sqft_living15      0.00008841136  0.00001110021  7.9648  0
 .000000000000001554[] 
  []
 
 
-Overfull \hbox (24.23122pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.23122pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## sqft_lot           0.00000068940  0.00000017728  3.8888   
           0.0001007[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## sqft_lot15        -0.00000015484  0.00000024902 -0.6218   
           0.5340769[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## sqft_above         0.00005717037  0.00001421814  4.0209  0
 .000057965163573037[] 
  []
@@ -1947,182 +1967,182 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54]
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+[56]
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## floors            -0.01948388357  0.01264771032 -1.5405   
           0.1234369[] 
  []
 
 
-Overfull \hbox (24.23122pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.23122pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## grade              0.09138018472  0.00702490854 13.0080 < 
 0.00000000000000022[] 
  []
 
 
-Overfull \hbox (24.1962pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1962pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## yr_built          -0.00021982466  0.00025234866 -0.8711   
           0.3836915[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## yr_renovated       0.00005292921  0.00001080073  4.9005  0
 .000000955814113857[] 
  []
 
 
-Overfull \hbox (24.1962pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1962pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## waterfront         0.40618333315  0.06784975109  5.9865  0
 .000000002143890843[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## condition          0.05109180473  0.00701054706  7.2878  0
 .000000000000314859[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## view               0.05537439616  0.00672657416  8.2322  0
 .000000000000000222[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2014-06  0.03408833664  0.01917432857  1.7778   
           0.0754349[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2014-07  0.02585987486  0.01961273176  1.3185   
           0.1873280[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2014-08  0.03717516704  0.01939884575  1.9164   
           0.0553193[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2014-09  0.03541077730  0.01990183323  1.7793   
           0.0751952[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2014-10  0.04029714479  0.01927715840  2.0904   
           0.0365811[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2014-11  0.04019278593  0.02072541317  1.9393   
           0.0524649[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2014-12  0.03153535020  0.02045459613  1.5417   
           0.1231406[] 
  []
 
 
-Overfull \hbox (24.23122pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.23122pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2015-01  0.01715722401  0.02336274220  0.7344   
           0.4627147[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2015-02  0.02502171656  0.02219406080  1.1274   
           0.2595709[] 
  []
 
 
-Overfull \hbox (24.1962pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1962pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2015-03  0.09298408008  0.01927961973  4.8229  0
 .000001414711155112[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2015-04  0.11370057603  0.01854325705  6.1316  0
 .000000000869777583[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## year_month2015-05  0.11748789427  0.02792146243  4.2078  0
 .000025787038121283[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## dist_cbd_km       -0.02154794250  0.01090052042 -1.9768   
           0.0480664[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## linguist_2         0.00149543725  0.00196738581  0.7601   
           0.4471865[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## poverty_pe         0.00125301068  0.00131326173  0.9541   
           0.3400224[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## POC_percen        -0.00116304508  0.00126354513 -0.9205   
           0.3573315[] 
  []
 
 
-Overfull \hbox (24.1962pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1962pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## unemploy_2        -0.00069890513  0.00384794909 -0.1816   
           0.8558727[] 
  []
 
 
-Overfull \hbox (24.18219pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.18219pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## sen_pop_pe        -0.00048918662  0.00031203689 -1.5677   
           0.1169464[] 
  []
 
 
-Overfull \hbox (24.1892pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1892pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## facilities         0.07502795129  0.04918673579  1.5254   
           0.1271669[] 
  []
 
 
-Overfull \hbox (24.1892pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1892pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## wastewater        -0.05599536046  0.13371945049 -0.4188   
           0.6753970[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## traffic_pe         0.00004117131  0.00041186974  0.1000   
           0.9203745[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## diesel            -0.00049167062  0.00122192009 -0.4024   
           0.6874078[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## superfund         -0.04100368746  0.08274282073 -0.4956   
           0.6202078[] 
  []
@@ -2138,182 +2158,182 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55]
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+[57]
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## transporta         0.00546427913  0.00835895107  0.6537   
           0.5133026[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## housing_pe         0.00108741682  0.00156507586  0.6948   
           0.4871798[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## ozone              0.00175157019  0.02265222927  0.0773   
           0.9383655[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## PM25              -0.03033738130  0.07729837172 -0.3925   
           0.6947101[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## toxic_rele        -0.00000058353  0.00000098705 -0.5912   
           0.5543984[] 
  []
 
 
-Overfull \hbox (24.1962pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1962pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## hazardous_         0.05820386865  0.37838316566  0.1538   
           0.8777496[] 
  []
 
 
-Overfull \hbox (24.23822pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.23822pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lead_perce        -0.00125481348  0.00110291380 -1.1377   
           0.2552350[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## socio_perc        -0.00121985494  0.00091057596 -1.3397   
           0.1803585[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.bedrooms       0.00019331850  0.01086593114  0.0178   
           0.9858054[] 
  []
 
 
-Overfull \hbox (24.23122pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.23122pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.bathrooms     -0.00105122716  0.02035282500 -0.0517   
           0.9588074[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.sqft_living    0.00000525523  0.00002829158  0.1858   
           0.8526390[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.sqft_living15  0.00011187126  0.00002058195  5.4354  0
 .000000054672157468[] 
  []
 
 
-Overfull \hbox (24.23822pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.23822pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.sqft_lot      -0.00000077822  0.00000035232 -2.2088   
           0.0271862[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.sqft_lot15     0.00000085229  0.00000048413  1.7604   
           0.0783339[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.sqft_above    -0.00004776882  0.00002706614 -1.7649   
           0.0775819[] 
  []
 
 
-Overfull \hbox (24.1892pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1892pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.floors        -0.00946256022  0.02297257979 -0.4119   
           0.6804078[] 
  []
 
 
-Overfull \hbox (24.1962pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1962pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.grade          0.00955835181  0.01249697522  0.7649   
           0.4443589[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.yr_built       0.00004918382  0.00044062864  0.1116   
           0.9111232[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.yr_renovated   0.00002601549  0.00002039754  1.2754   
           0.2021597[] 
  []
 
 
-Overfull \hbox (24.18219pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.18219pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.waterfront    -0.24665973533  0.15449901069 -1.5965   
           0.1103742[] 
  []
 
 
-Overfull \hbox (24.23122pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.23122pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.condition      0.01171481337  0.01319482182  0.8878   
           0.3746300[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.view          -0.00978019323  0.01195189729 -0.8183   
           0.4131880[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.dist_cbd_km    0.00624852829  0.01100714043  0.5677   
           0.5702526[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.linguist_2    -0.00118362362  0.00233585567 -0.5067   
           0.6123516[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.poverty_pe    -0.00007282727  0.00155109907 -0.0470   
           0.9625514[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.POC_percen    -0.00275295583  0.00145005714 -1.8985   
           0.0576282[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.unemploy_2    -0.00064144814  0.00490802147 -0.1307   
           0.8960175[] 
  []
 
 
-Overfull \hbox (24.2102pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2102pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.sen_pop_pe     0.00037886972  0.00038505710  0.9839   
           0.3251493[] 
  []
 
 
-Overfull \hbox (24.17519pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.17519pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.facilities     0.02664596137  0.05150396902  0.5174   
           0.6049067[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.wastewater     0.02635089572  0.14837285285  0.1776   
           0.8590378[] 
  []
@@ -2329,74 +2349,74 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56]
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+[58]
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.traffic_pe    -0.00045616259  0.00048583274 -0.9389   
           0.3477670[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.diesel         0.00224935150  0.00134514480  1.6722   
           0.0944848[] 
  []
 
 
-Overfull \hbox (24.1962pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1962pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.superfund      0.00022930057  0.08781448770  0.0026   
           0.9979166[] 
  []
 
 
-Overfull \hbox (24.2032pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.2032pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.transporta    -0.03319521114  0.00972953664 -3.4118   
           0.0006454[] 
  []
 
 
-Overfull \hbox (24.1962pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1962pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.housing_pe    -0.00312082723  0.00193067220 -1.6164   
           0.1059979[] 
  []
 
 
-Overfull \hbox (24.22421pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.22421pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.ozone         -0.00423130493  0.02300754809 -0.1839   
           0.8540845[] 
  []
 
 
-Overfull \hbox (24.23122pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.23122pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.PM25          -0.07436475080  0.07828007371 -0.9500   
           0.3421208[] 
  []
 
 
-Overfull \hbox (24.23822pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.23822pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.toxic_rele    -0.00000197334  0.00000110348 -1.7883   
           0.0737300[] 
  []
 
 
-Overfull \hbox (24.1962pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.1962pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.hazardous_    -0.54042952839  0.39441964577 -1.3702   
           0.1706279[] 
  []
 
 
-Overfull \hbox (24.23122pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.23122pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.lead_perce     0.00347850723  0.00130878072  2.6578   
           0.0078647[] 
  []
 
 
-Overfull \hbox (24.21721pt too wide) in paragraph at lines 3526--3526
+Overfull \hbox (24.21721pt too wide) in paragraph at lines 3646--3646
 []\T1/lmtt/m/n/12 ## lag.socio_perc    -0.00041162901  0.00109805070 -0.3749   
           0.7077553[] 
  []
 
 
-Overfull \hbox (18.07022pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (18.07022pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lm(formula = formula(paste("y ~ ", paste(colnames(x)[-1], 
 collapse = "+"))),[] 
  []
@@ -2409,146 +2429,146 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57]
-Overfull \hbox (30.42023pt too wide) in paragraph at lines 3736--3736
+[59]
+Overfull \hbox (30.42023pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ##                            Estimate    Std. Error t value 
             Pr(>|t|)[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## (Intercept)           12.9925183545  0.8739846019  14.866 
 < 0.0000000000000002[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## bedrooms               0.0119101679  0.0062590872   1.903 
             0.057221[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## bathrooms              0.0273397896  0.0110376318   2.477 
             0.013343[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## sqft_living            0.0001429537  0.0000149721   9.548 
 < 0.0000000000000002[] 
  []
 
 
-Overfull \hbox (30.41322pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.41322pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## sqft_living15          0.0000858000  0.0000115932   7.401 
   0.0000000000002080[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## sqft_lot               0.0000006978  0.0000001861   3.751 
             0.000182[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## sqft_lot15            -0.0000001787  0.0000002601  -0.687 
             0.492228[] 
  []
 
 
-Overfull \hbox (30.3642pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3642pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## sqft_above             0.0000585939  0.0000148093   3.957 
   0.0000790369547605[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## floors                -0.0216762056  0.0133404045  -1.625 
             0.104372[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## grade                  0.0919121470  0.0073529758  12.500 
 < 0.0000000000000002[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## yr_built              -0.0002208981  0.0002665514  -0.829 
             0.407371[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## yr_renovated           0.0000544312  0.0000111078   4.900 
   0.0000010443287166[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## waterfront             0.4050434485  0.0703063482   5.761 
   0.0000000098325725[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## condition              0.0505160517  0.0072794180   6.940 
   0.0000000000054971[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## view                   0.0559674802  0.0071784444   7.797 
   0.0000000000000108[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2014.06      0.0387511239  0.0205029779   1.890 
             0.058918[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2014.07      0.0270374242  0.0208152030   1.299 
             0.194138[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2014.08      0.0406262647  0.0205727626   1.975 
             0.048451[] 
  []
 
 
-Overfull \hbox (30.3642pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3642pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2014.09      0.0379780505  0.0212661069   1.786 
             0.074295[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2014.10      0.0392086615  0.0206253590   1.901 
             0.057465[] 
  []
 
 
-Overfull \hbox (30.41322pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.41322pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2014.11      0.0378215285  0.0221608858   1.707 
             0.088057[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2014.12      0.0284624981  0.0218861671   1.300 
             0.193606[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2015.01      0.0125788935  0.0249616264   0.504 
             0.614374[] 
  []
@@ -2564,182 +2584,182 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58]
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3736--3736
+[60]
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2015.02      0.0188651510  0.0236369756   0.798 
             0.424908[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2015.03      0.0897397834  0.0205788532   4.361 
   0.0000137056307656[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2015.04      0.1106508669  0.0198465013   5.575 
   0.0000000285152455[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## year_month2015.05      0.1117158984  0.0299247511   3.733 
             0.000195[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## dist_cbd_km           -0.0224500615  0.0114466883  -1.961 
             0.050004[] 
  []
 
 
-Overfull \hbox (30.40622pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.40622pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## linguist_2             0.0005877410  0.0021613948   0.272 
             0.785710[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## poverty_pe             0.0012495423  0.0014422106   0.866 
             0.386384[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## POC_percen            -0.0012858746  0.0013901623  -0.925 
             0.355101[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## unemploy_2            -0.0011694070  0.0042237363  -0.277 
             0.781916[] 
  []
 
 
-Overfull \hbox (30.40622pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.40622pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## sen_pop_pe            -0.0003803312  0.0003416548  -1.113 
             0.265772[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## facilities             0.0769798131  0.0547823603   1.405 
             0.160139[] 
  []
 
 
-Overfull \hbox (30.3572pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3572pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## wastewater            -0.0266463274  0.1489732999  -0.179 
             0.858063[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## traffic_pe            -0.0001007709  0.0004546493  -0.222 
             0.824615[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## diesel                -0.0008861861  0.0013605568  -0.651 
             0.514911[] 
  []
 
 
-Overfull \hbox (30.3642pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3642pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## superfund             -0.0196279799  0.0917167343  -0.214 
             0.830567[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## transporta             0.0058907793  0.0091559504   0.643 
             0.520059[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## housing_pe             0.0010004624  0.0017217655   0.581 
             0.561269[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## ozone                 -0.0027642533  0.0248259526  -0.111 
             0.911355[] 
  []
 
 
-Overfull \hbox (30.41322pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.41322pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## PM25                  -0.0318804527  0.0853473530  -0.374 
             0.708793[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## toxic_rele            -0.0000005205  0.0000010916  -0.477 
             0.633535[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## hazardous_             0.1121615211  0.4207496126   0.267 
             0.789827[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lead_perce            -0.0014615971  0.0012196080  -1.198 
             0.230916[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## socio_perc            -0.0009204728  0.0010008520  -0.920 
             0.357860[] 
  []
 
 
-Overfull \hbox (30.3642pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3642pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.bedrooms           0.0044994378  0.0103366864   0.435 
             0.663406[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.bathrooms          0.0001339740  0.0194060901   0.007 
             0.994492[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.sqft_living        0.0000165167  0.0000265852   0.621 
             0.534499[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.sqft_living15      0.0001016416  0.0000196680   5.168 
   0.0000002635484224[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.sqft_lot          -0.0000008780  0.0000003331  -2.636 
             0.008461[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.sqft_lot15         0.0000009921  0.0000004620   2.147 
             0.031909[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.sqft_above        -0.0000607990  0.0000255606  -2.379 
             0.017483[] 
  []
@@ -2755,182 +2775,182 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59]
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+[61]
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.floors            -0.0109412583  0.0217662874  -0.503 
             0.615259[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.grade              0.0186737344  0.0118228176   1.579 
             0.114408[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.yr_built           0.0001290460  0.0004131703   0.312 
             0.754826[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.yr_renovated       0.0000377023  0.0000194307   1.940 
             0.052495[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.waterfront        -0.2096073264  0.1517166087  -1.382 
             0.167278[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.condition          0.0118791938  0.0124491915   0.954 
             0.340106[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.view              -0.0132833794  0.0114137843  -1.164 
             0.244661[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2014.06  0.0416616103  0.0360723780   1.155 
             0.248269[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2014.07  0.0277584640  0.0365554321   0.759 
             0.447743[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2014.08  0.0271810457  0.0357982509   0.759 
             0.447784[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2014.09  0.0506167536  0.0380052286   1.332 
             0.183085[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2014.10  0.0005340236  0.0365599194   0.015 
             0.988348[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2014.11 -0.0029040281  0.0399651751  -0.073 
             0.942082[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2014.12  0.0018977738  0.0387800038   0.049 
             0.960975[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2015.01 -0.0156258159  0.0436059377  -0.358 
             0.720130[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2015.02 -0.0345078994  0.0418034149  -0.825 
             0.409210[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2015.03 -0.0290751451  0.0366377887  -0.794 
             0.427544[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2015.04 -0.0043210987  0.0344746376  -0.125 
             0.900268[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.year_month2015.05 -0.0230097194  0.0534936731  -0.430 
             0.667147[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.dist_cbd_km        0.0068582813  0.0115150747   0.596 
             0.551524[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.linguist_2        -0.0001626083  0.0024320906  -0.067 
             0.946701[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.poverty_pe        -0.0001805569  0.0016188576  -0.112 
             0.911206[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.POC_percen        -0.0023564705  0.0015309350  -1.539 
             0.123925[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.unemploy_2         0.0005530037  0.0050636477   0.109 
             0.913048[] 
  []
 
 
-Overfull \hbox (30.40622pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.40622pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.sen_pop_pe         0.0002370507  0.0004004208   0.592 
             0.553923[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.facilities         0.0259781843  0.0565355551   0.460 
             0.645930[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.wastewater        -0.0144662025  0.1591213036  -0.091 
             0.927572[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.traffic_pe        -0.0002918149  0.0005098480  -0.572 
             0.567153[] 
  []
 
 
-Overfull \hbox (30.41322pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.41322pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.diesel             0.0025226553  0.0014554538   1.733 
             0.083227[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.superfund         -0.0163061553  0.0956010817  -0.171 
             0.864586[] 
  []
@@ -2946,50 +2966,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[60]
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+[62]
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.transporta        -0.0329386060  0.0101291787  -3.252 
             0.001168[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.housing_pe        -0.0025684663  0.0020068028  -1.280 
             0.200755[] 
  []
 
 
-Overfull \hbox (30.40622pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.40622pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.ozone              0.0021983845  0.0250245848   0.088 
             0.930007[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.PM25              -0.0665233964  0.0860772092  -0.773 
             0.439724[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.toxic_rele        -0.0000021686  0.0000011884  -1.825 
             0.068193[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.hazardous_        -0.5807559852  0.4348562266  -1.336 
             0.181880[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.lead_perce         0.0037844236  0.0013831276   2.736 
             0.006279[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3736--3736
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3856--3856
 []\T1/lmtt/m/n/12 ## lag.socio_perc        -0.0008798686  0.0011415123  -0.771 
             0.440933[] 
  []
@@ -3005,36 +3025,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[61]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[62]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [63]
-Overfull \hbox (11.89522pt too wide) in paragraph at lines 3820--3820
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[65]
+Overfull \hbox (11.89522pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## Call:errorsarlm(formula = log(price) ~ bedrooms + bathroom
 s + sqft_living +[] 
  []
 
 
-Overfull \hbox (5.67819pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (5.67819pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ##     data = kc_house_data_666, listw = kc_house_data_666_W,
  Durbin = FALSE)[] 
  []
@@ -3047,146 +3067,146 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64]
-Overfull \hbox (30.42023pt too wide) in paragraph at lines 3820--3820
+[66]
+Overfull \hbox (30.42023pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ##                         Estimate     Std. Error  z value  
             Pr(>|z|)[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## (Intercept)       13.87095329048  0.58874040041  23.5604 <
  0.00000000000000022[] 
  []
 
 
-Overfull \hbox (30.33618pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.33618pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## bedrooms           0.01204624346  0.00599964699   2.0078  
            0.0446619[] 
  []
 
 
-Overfull \hbox (30.35019pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.35019pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## bathrooms          0.02922896958  0.01060949589   2.7550  
            0.0058695[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## sqft_living        0.00014268406  0.00001437176   9.9281 <
  0.00000000000000022[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## sqft_living15      0.00008551259  0.00001088495   7.8560  
 0.000000000000003997[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## sqft_lot           0.00000072871  0.00000017874   4.0770  
 0.000045627311459295[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## sqft_lot15        -0.00000026455  0.00000025109  -1.0536  
            0.2920488[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## sqft_above         0.00005872706  0.00001423143   4.1266  
 0.000036820867729492[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## floors            -0.02036848939  0.01286672574  -1.5830  
            0.1134133[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## grade              0.09976911357  0.00703859608  14.1746 <
  0.00000000000000022[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## yr_built          -0.00045360048  0.00025608173  -1.7713  
            0.0765089[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## yr_renovated       0.00005025756  0.00001056376   4.7575  
 0.000001959605423485[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## waterfront         0.40839824233  0.06658773032   6.1332  
 0.000000000861094529[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## condition          0.05038511802  0.00693650842   7.2638  
 0.000000000000376588[] 
  []
 
 
-Overfull \hbox (30.3642pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3642pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## view               0.05796865789  0.00678476654   8.5439 <
  0.00000000000000022[] 
  []
 
 
-Overfull \hbox (30.3572pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3572pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2014-06  0.03997675703  0.01949776599   2.0503  
            0.0403327[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2014-07  0.02704905825  0.02000599791   1.3520  
            0.1763601[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2014-08  0.04048854151  0.01974311501   2.0508  
            0.0402896[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2014-09  0.03737715686  0.02026537801   1.8444  
            0.0651271[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2014-10  0.04219831036  0.01952170163   2.1616  
            0.0306482[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2014-11  0.04371132900  0.02104813568   2.0767  
            0.0378263[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2014-12  0.03637719595  0.02079831378   1.7490  
            0.0802832[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2015-01  0.02518723875  0.02376507878   1.0598  
            0.2892163[] 
  []
@@ -3202,187 +3222,146 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[65]
-Overfull \hbox (30.3642pt too wide) in paragraph at lines 3820--3820
+[67]
+Overfull \hbox (30.3642pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2015-02  0.02661324599  0.02249479271   1.1831  
            0.2367756[] 
  []
 
 
-Overfull \hbox (30.33618pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.33618pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2015-03  0.09175071689  0.01963350298   4.6732  
 0.000002965846205960[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2015-04  0.12230318073  0.01885656976   6.4860  
 0.000000000088161700[] 
  []
 
 
-Overfull \hbox (30.3572pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3572pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## year_month2015-05  0.12231415716  0.02847991974   4.2948  
 0.000017488969864088[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## dist_cbd_km       -0.01787576807  0.00168717388 -10.5951 <
  0.00000000000000022[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## linguist_2         0.00095472778  0.00140083033   0.6815  
            0.4955272[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## poverty_pe         0.00119488006  0.00094457889   1.2650  
            0.2058760[] 
  []
 
 
-Overfull \hbox (30.3642pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3642pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## POC_percen        -0.00368238407  0.00082292971  -4.4747  
 0.000007650976146634[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## unemploy_2        -0.00064172739  0.00301742269  -0.2127  
            0.8315812[] 
  []
 
 
-Overfull \hbox (30.38521pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.38521pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## sen_pop_pe        -0.00045127987  0.00022764509  -1.9824  
            0.0474363[] 
  []
 
 
-Overfull \hbox (30.3712pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3712pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## facilities         0.09271481478  0.01800546156   5.1493  
 0.000000261515249900[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## wastewater        -0.09569532517  0.07283974182  -1.3138  
            0.1889206[] 
  []
 
 
-Overfull \hbox (30.40622pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.40622pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## traffic_pe        -0.00015742223  0.00028729109  -0.5480  
            0.5837237[] 
  []
 
 
-Overfull \hbox (30.3572pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3572pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## diesel             0.00185636035  0.00062656263   2.9628  
            0.0030489[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## superfund         -0.08448945247  0.03234890957  -2.6118  
            0.0090062[] 
  []
 
 
-Overfull \hbox (30.3642pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3642pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## transporta        -0.01958456195  0.00556450636  -3.5196  
            0.0004323[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## housing_pe        -0.00152802212  0.00118816326  -1.2860  
            0.1984301[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## ozone              0.00058422001  0.00553313699   0.1056  
            0.9159111[] 
  []
 
 
-Overfull \hbox (30.40622pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.40622pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## PM25              -0.10551007437  0.01548573311  -6.8134  
 0.000000000009533707[] 
  []
 
 
-Overfull \hbox (30.39221pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39221pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## toxic_rele        -0.00000216811  0.00000051405  -4.2177  
 0.000024679917747017[] 
  []
 
 
-Overfull \hbox (30.39922pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.39922pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## hazardous_        -0.39310047340  0.11819347317  -3.3259  
            0.0008813[] 
  []
 
 
-Overfull \hbox (30.40622pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.40622pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## lead_perce         0.00019327283  0.00070072820   0.2758  
            0.7826885[] 
  []
 
 
-Overfull \hbox (30.3782pt too wide) in paragraph at lines 3820--3820
+Overfull \hbox (30.3782pt too wide) in paragraph at lines 3940--3940
 []\T1/lmtt/m/n/12 ## socio_perc        -0.00174305396  0.00065275499  -2.6703  
            0.0075783[] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[66]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[67]
-Overfull \hbox (11.89522pt too wide) in paragraph at lines 3871--3871
-[]\T1/lmtt/m/n/12 ## Log likelihood of spatial error model           Log likeli
-hood of OLS fit y[] 
- []
-
-
-Overfull \hbox (11.88121pt too wide) in paragraph at lines 3871--3871
-[]\T1/lmtt/m/n/12 ##                              587.4419                     
-         548.2162[] 
- []
-
-
-Overfull \hbox (11.89522pt too wide) in paragraph at lines 3888--3888
-[]\T1/lmtt/m/n/12 ## Log likelihood of spatial error model           Log likeli
-hood of OLS fit y[] 
- []
-
-
-Overfull \hbox (11.88821pt too wide) in paragraph at lines 3888--3888
-[]\T1/lmtt/m/n/12 ##                              530.1688                     
-         484.7404[] 
- []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3402,6 +3381,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [69]
+Overfull \hbox (11.89522pt too wide) in paragraph at lines 3991--3991
+[]\T1/lmtt/m/n/12 ## Log likelihood of spatial error model           Log likeli
+hood of OLS fit y[] 
+ []
+
+
+Overfull \hbox (11.88121pt too wide) in paragraph at lines 3991--3991
+[]\T1/lmtt/m/n/12 ##                              587.4419                     
+         548.2162[] 
+ []
+
+
+Overfull \hbox (11.89522pt too wide) in paragraph at lines 4008--4008
+[]\T1/lmtt/m/n/12 ## Log likelihood of spatial error model           Log likeli
+hood of OLS fit y[] 
+ []
+
+
+Overfull \hbox (11.88821pt too wide) in paragraph at lines 4008--4008
+[]\T1/lmtt/m/n/12 ##                              530.1688                     
+         484.7404[] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3428,16 +3430,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[72] (./MSB205_King_County_Silje_Sofie_Karl-Gunnnar.aux)
+[72]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[73]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[74] (./MSB205_King_County_Silje_Sofie_Karl-Gunnnar.aux)
 Package rerunfilecheck Info: File `MSB205_King_County_Silje_Sofie_Karl-Gunnnar.
 out' has not changed.
-(rerunfilecheck)             Checksum: 820C6805B1B1D2D4FE3D2A0650CF4847;4136.
+(rerunfilecheck)             Checksum: 5B0AB6C29A16BD48EF9E40E33055E863;4462.
  ) 
 Here is how much of TeX's memory you used:
- 17644 strings out of 480539
- 316918 string characters out of 5901052
- 825157 words of memory out of 5000000
- 34828 multiletter control sequences out of 15000+600000
+ 17660 strings out of 480539
+ 317140 string characters out of 5901052
+ 825318 words of memory out of 5000000
+ 34840 multiletter control sequences out of 15000+600000
  454064 words of font info for 70 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,13n,81p,3195b,903s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3453,11 +3473,11 @@ f-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/bruker/AppData/Roaming/TinyTeX/
 texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/bruker/AppData/Roaming/Ti
 nyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/Users/bruker/AppData/Roam
 ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on MSB205_King_County_Silje_Sofie_Karl-Gunnnar.pdf (72 pages, 19
-083644 bytes).
+Output written on MSB205_King_County_Silje_Sofie_Karl-Gunnnar.pdf (74 pages, 19
+097925 bytes).
 PDF statistics:
- 656 PDF objects out of 1000 (max. 8388607)
- 518 compressed objects within 6 object streams
- 145 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 673 PDF objects out of 1000 (max. 8388607)
+ 533 compressed objects within 6 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 341 words of extra memory for PDF output out of 10000 (max. 10000000)
 
