@@ -5,13 +5,13 @@ author:
   - "Karl-Gunnar Severinsen"
   - "Silje Marie Danielsen"
   - "Sofie Brynjelsen"
-date: "Innleveringsfrist: xx.11.2021"
+date: "Innleveringsfrist: 23.11.2021"
 header-includes: |
   \usepackage{fancyhdr}
   \pagestyle{fancy}
   \fancyhead[L]{Emnekode: MSB203}
   \fancyhead[C]{King County}
-  \fancyhead[R]{Dato: xx.11.2021}
+  \fancyhead[R]{Dato: 23.11.2021}
   \fancyfoot[CO,CE]{\thepage}
   \usepackage{sectsty}
   \allsectionsfont{\color{cyan}}
@@ -112,7 +112,7 @@ Eksempelvis dersom man flytter til et nabolag med høy velstand og luftkvalitet,
 
 # 2. House Sales in King County, WA
 
-```{r}
+```{r, message=FALSE}
 kc_house_data <- read_csv("data/kc_house_data.csv")
 attach(kc_house_data)
 ```
@@ -133,7 +133,7 @@ kc_house_data_sf <- st_as_sf(kc_house_data,
     st_transform(2926)
 ```
 
-Koordinater Seattle: 47.60621, -122.33207
+**Koordinater Seattle: 47.60621, -122.33207**
 
 ```{r}
 cbd <- st_sfc(st_point(c(-122.33207, 47.60621)), crs = 4326) %>% 
@@ -196,8 +196,10 @@ attach(asc_b19101_fam_inc)
 
 ```{r}
 asc_b19101_fam_inc <- asc_b19101_fam_inc %>% 
-    mutate(low = (E19101138 + E19101139 + E19101140 + E19101141 + E19101142 + E19101143)/E19101137) %>% 
-    mutate(mid = (E19101144 + E19101145 + E19101146 + E19101147 + E19101148 + E19101149)/E19101137) %>% 
+    mutate(low = (E19101138 + E19101139 + E19101140 + E19101141 + 
+                      E19101142 + E19101143)/E19101137) %>% 
+    mutate(mid = (E19101144 + E19101145 + E19101146 + E19101147 + 
+                      E19101148 + E19101149)/E19101137) %>% 
     mutate(high = (E19101150 + E19101151 + E19101152 + E19101153)/E19101137)
 ```
 
@@ -249,7 +251,7 @@ class(kc_tracts10_shore_env_data)
 ```
 
 ```{r}
-summary(kc_tracts10)
+# summary(kc_tracts10)
 ```
 
 ```{r}
@@ -265,18 +267,18 @@ st_write(kc_houses_env_var, "maps/kc_houses_env_var.gpkg", append = FALSE)
 st_write(kc_tracts10_shore_env_var, "maps/kc_tracts10_shore_env_var.gpkg", append = FALSE)
 ```
 
-# 4. 
+# 4. Spatial join av husdata
 
 ```{r}
-summary(kc_tracts10_env_data)
+# summary(kc_tracts10_env_data)
 ```
 
 
 ```{r}
-summary(kc_tracts10_shore_env_var)
+# summary(kc_tracts10_shore_env_var)
 ```
 
-Ved å se på dataene sammen med kartene i QGIS, så ser vi at *kc__tracts10_env_data* har én observasjons som faller utenfor kommunegrensene.
+Ved å se på dataene sammen med kartene i QGIS, så ser vi at *kc_tracts10_env_data* har én observasjons som faller utenfor kommunegrensene.
 
 ![Observasjonen utenfor kommunegrensene.](screens/komgrense.jpg)
 
@@ -322,40 +324,51 @@ Små og dyre boliger markert i gule punkter.
 
 ### Store og dyre boliger
 
-![Store og dyre boliger markert i rød punkter.](screens/high_high_kn3.jpg){width=50%, height=50%}
+![](screens/high_high_kn3.jpg){width=50%, height=50%}
 
-
+Store og dyre boliger markert i røde punkter.
 
 ### Store og billige boliger
 
-![Store og billige boliger markert i rosa punkter.](screens/low_high_kn3.jpg){width=50%, height=50%}
+![](screens/low_high_kn3.jpg){width=50%, height=50%}
 
-
+Store og billige boliger markert i rosa punkter.
 
 ### Små og billige boliger
 
-![Små og billige boliger markert i blå punkter.](screens/low_low_kn3.jpg){width=50%, height=50%}
+![](screens/low_low_kn3.jpg){width=50%, height=50%}
 
+Små og billige boliger markert i blå punkter.
 
 ## Nærmeste 10 naboer
 
-![Vektmatrise med 10 nærmeste naboer](screens/knear10.jpg){width=50%, height=50%}
+![](screens/knear10.jpg){width=50%, height=50%}
+
+Vektmatrise med 10 nærmeste naboer
 
 ### Små og dyre boliger
 
-![Små og dyre boliger markert i gule punkter.](screens/high_low_kn10.jpg){width=50%, height=50%}
+![](screens/high_low_kn10.jpg){width=50%, height=50%}
+
+Små og dyre boliger markert i gule punkter.
 
 ### Store og dyre boliger
 
-![Store og dyre boliger markert i rød punkter.](screens/high_high_kn10.jpg){width=50%, height=50%}
+![](screens/high_high_kn10.jpg){width=50%, height=50%}
+
+Store og dyre boliger markert i røde punkter.
 
 ### Store og billige boliger
 
-![Store og billige boliger markert i rosa punkter.](screens/low_high_kn10.jpg){width=50%, height=50%}
+![](screens/low_high_kn10.jpg){width=50%, height=50%}
+
+Store og billige boliger markert i rosa punkter.
 
 ### Små og billige boliger
 
-![Små og billige boliger markert i blå punkter.](screens/low_low_kn10.jpg){width=50%, height=50%}
+![](screens/low_low_kn10.jpg){width=50%, height=50%}
+
+Små og billige boliger markert i blå punkter.
 
 ## Oppsumering av funn fra EDA
 
@@ -363,7 +376,7 @@ Vi har sett på fordelingen av boliger sett i på pris i forhold til størrelse.
 Fordelingen er relativt lik både ved *knear = 3* og *knear = 10*.
 Vi kan se at små og billige boliger i hovedsak er sentrert rundt sentrum av Seattle, med noe spredt ellers i King County, WA.
 På den andre enden av skalen ser vi at store og dyre boliger ligger Bellevue/Redmond-området øst for Seattle, også her med noe spredning.
-Små og dyre boliger ligger i all hovedsak tett rundt Seattle sentrum, med noen få observasjoner spredt rundt om kring.
+Små og dyre boliger ligger i all hovedsak tett rundt Seattle sentrum, med noen få observasjoner spredt rundt omkring.
 Store og billige boliger ligger (kanskje ikke uventet) spredt i landlige områder.
 
 Ved å se på Morans I, så får vi verdier på 0.404 ved *knear = 3* og 0.351 ved *knear = 10*. 
@@ -379,28 +392,36 @@ Vi ser også en del tilfeldig spredning i observasjonene, noe som gir mening da 
 
 ## i. Huskarakterisika
 
-```{r}
+```{r, message=FALSE}
 attach(kc_houses_env_var_omit)
 ```
 
 
 ```{r}
-hedon1 <- lm(price ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month)
+mod1 <- "price ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month"
 ```
 
 
 ## ii. Huskarakteristika + distanse til cbd + tracts_var
 
 ```{r}
-hedon2 <- lm(price ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc)
+mod2 <- "price ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + 
+hazardous_ + lead_perce + socio_perc"
 ```
 
 
 ## iii. Huskarakteristika + distanse til cbd + EHD
 
 ```{r}
-hedon3 <- lm(price ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + dist_cbd_km + EHD_percen + low + high + year_month)
+mod3 <- "price ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + dist_cbd_km + EHD_percen + low + high + year_month"
 ```
+
+```{r}
+hedon1 <- lm(mod1, data = kc_houses_env_var_omit)
+hedon2 <- lm(mod2, data = kc_houses_env_var_omit)
+hedon3 <- lm(mod3, data = kc_houses_env_var_omit)
+```
+
 
 
 ```{r}
@@ -409,20 +430,28 @@ huxreg("Hedon1" = hedon1, "Hedon2" = hedon2, "Hedon3" = hedon3,
     note = "{stars}. T statistic in brackets.")
 ```
 
+***I .pdf-filen så har huxreg-tabellen lagt seg helt på slutten av dokumentet***
 
+
+Ved å sammenligne de tre hedoniske modellene vi har satt opp ser vi at *mod2* har en marginalt bedre forklaringskraft enn *mod3*.
+Vi velger derimot å jobbe videre med ***mod3***, da denne modellen har mindre variabler å ta hensyn til, samtidig som den er omtrent like forklarende som *mod2*.
+Variabelen *EHD_percen* er en "samlevariabel" som samler alle de miljømessige variablene fra *mod2*.
+I tillegg tar vi med inntektsgruppene, der *mid* er referansepunktet. 
+
+\newpage
 ### Plots
 
-```{r}
+```{r, fig.width=3, fig.height=3}
 hedon1 %>% 
     plot()
 ```
 
-```{r}
+```{r, fig.width=3, fig.height=3}
 hedon2 %>% 
     plot()
 ```
 
-```{r}
+```{r, fig.width=3, fig.height=3}
 hedon3 %>% 
     plot()
 ```
@@ -432,17 +461,35 @@ hedon3 %>%
 
 ```{r}
 hedon1 %>% 
-    linearHypothesis(c("year_month2014-06=0", "year_month2014-07=0", "year_month2014-08=0", "year_month2014-09=0", "year_month2014-10=0", "year_month2014-11=0", "year_month2014-12=0", "year_month2015-01=0", "year_month2015-02=0", "year_month2015-03=0", "year_month2015-04=0", "year_month2015-05=0"), white_adjust = hc3)
+    linearHypothesis(c("year_month2014-06=0", "year_month2014-07=0",
+                       "year_month2014-08=0", "year_month2014-09=0",
+                       "year_month2014-10=0", "year_month2014-11=0",
+                       "year_month2014-12=0", "year_month2015-01=0",
+                       "year_month2015-02=0", "year_month2015-03=0",
+                       "year_month2015-04=0", "year_month2015-05=0"),
+                     white_adjust = hc3)
 ```
 
 ```{r}
 hedon2 %>% 
-    linearHypothesis(c("year_month2014-06=0", "year_month2014-07=0", "year_month2014-08=0", "year_month2014-09=0", "year_month2014-10=0", "year_month2014-11=0", "year_month2014-12=0", "year_month2015-01=0", "year_month2015-02=0", "year_month2015-03=0", "year_month2015-04=0", "year_month2015-05=0"), white_adjust = hc4)
+    linearHypothesis(c("year_month2014-06=0", "year_month2014-07=0",
+                       "year_month2014-08=0", "year_month2014-09=0",
+                       "year_month2014-10=0", "year_month2014-11=0",
+                       "year_month2014-12=0", "year_month2015-01=0",
+                       "year_month2015-02=0", "year_month2015-03=0",
+                       "year_month2015-04=0", "year_month2015-05=0"),
+                     white_adjust = hc4)
 ```
 
 ```{r}
 hedon3 %>% 
-    linearHypothesis(c("year_month2014-06=0", "year_month2014-07=0", "year_month2014-08=0", "year_month2014-09=0", "year_month2014-10=0", "year_month2014-11=0", "year_month2014-12=0", "year_month2015-01=0", "year_month2015-02=0", "year_month2015-03=0", "year_month2015-04=0", "year_month2015-05=0"), white_adjust = hc1)
+    linearHypothesis(c("year_month2014-06=0", "year_month2014-07=0",
+                       "year_month2014-08=0", "year_month2014-09=0",
+                       "year_month2014-10=0", "year_month2014-11=0",
+                       "year_month2014-12=0", "year_month2015-01=0",
+                       "year_month2015-02=0", "year_month2015-03=0",
+                       "year_month2015-04=0", "year_month2015-05=0"),
+                     white_adjust = hc1)
 ```
 
 Ved å teste teste nullhypotesen om at det ikke er forskjell i salgspris basert på salgstidspunkt, så ser vi av F- og p-verdiene at vi kan forkaste $H_0$.
@@ -463,16 +510,21 @@ kc_house_data_666 <-  kc_house_data_666 %>%
     dist_cbd = st_distance(cbd, ., by_element = TRUE),
     dist_cbd_km = set_units(dist_cbd, km),
     year_month = substr(date, start = 1, stop = 7))
+
+kc_house_data_666 <- kc_house_data_666 %>% 
+    rename(low = inc_fam_low_per,
+           mid = inc_fam_med_per,
+           high = inc_fam_high_per)
 ```
 
 
 ```{r}
-hedon2_seed <- lm(price ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc, data = kc_house_data_666)
-summary(hedon2_seed)
+hedon3_seed <- lm(mod3, data = kc_house_data_666)
+# summary(hedon3_seed)
 ```
 
 ```{r}
-huxreg("Full" = hedon2, "Seed" = hedon2_seed, 
+huxreg("Full" = hedon3, "Seed" = hedon3_seed, 
     error_format = "[{statistic}]",
     note = "{stars}. T statistic in brackets.")
 ```
@@ -488,8 +540,8 @@ kc_house_data_666_W10 <- nb2listw(kc_house_data_666_nb10, style = "W")
 ```
 
 ```{r}
-lm.morantest(hedon2_seed, kc_house_data_666_W)
-lm.morantest(hedon2_seed, kc_house_data_666_W10)
+lm.morantest(hedon3_seed, kc_house_data_666_W)
+lm.morantest(hedon3_seed, kc_house_data_666_W10)
 ```
 
 ```{r}
@@ -500,52 +552,77 @@ moran.plot(log(kc_house_data_666$price), listw = kc_house_data_666_W, labels = F
 moran.plot(log(kc_house_data_666$price), listw = kc_house_data_666_W10, labels = FALSE, pch = 20, cex = 0.3)
 ```
 
-
-
-
-
-
-
-
 ```{r}
-kc_lagrange <- lm.LMtests(hedon2_seed, kc_house_data_666_W, 
-               test=c("LMerr","RLMerr","LMlag","RLMlag","SARMA"))
-kc_lagrange
+kc_lagrange_3 <- lm.LMtests(hedon3_seed, kc_house_data_666_W, 
+               test = "all")
+kc_lagrange_3
 ```
 
 ```{r}
-kc_lagrange <- lm.LMtests(hedon2_seed, kc_house_data_666_W10, 
-               test = c("LMerr","RLMerr","LMlag","RLMlag","SARMA"))
-kc_lagrange
+kc_lagrange_10 <- lm.LMtests(hedon3_seed, kc_house_data_666_W10, 
+               test = "all")
+kc_lagrange_10
 ```
 
-
+Ved å kjøre Lagranges multiplikatortest for både *knear = 3* og *knear = 10* så får vi i begge tilfelle signifikans på *LMerr* og *LMlag*.
+Vi ser da videre på *RLMerr* og *RLMlag* og får også tydelig signifikans på begge her.
+Dermed velger vi høyeste verdi av *RLMerr* og *RLMlag*, $314.65 > 76.981$, så en robust "error"-modell kommer best ut.
 
 ## iv. Lokale spatiale modeller
 
+Ettersom vi jobber med boligdata er det normalt å anse effekter som lokale.
+Vi velger også å anse de romlige effektene her som lokale, da det er lite sannsynlig at noe endring i et nabolag her vil ha noe særlig påvirkning utover nærområdet.
+
 ```{r, cache=TRUE}
-SDEM_seed <- errorsarlm(log(price) ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc, data = kc_house_data_666, listw = kc_house_data_666_W, Durbin = as.formula(~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc))
-summary(SDEM_seed)
+SDEM_seed <- errorsarlm(mod3, data = kc_house_data_666, listw = kc_house_data_666_W,
+                        Durbin = as.formula(~ bedrooms + bathrooms + sqft_living +
+                                                sqft_living15 + sqft_lot + sqft_lot15 +
+                                                sqft_above + floors + grade + yr_built +
+                                                yr_renovated + waterfront + condition +
+                                                view + dist_cbd_km + EHD_percen +
+                                                low + high))
 ```
 
 ```{r}
-SLX_seed <- lmSLX(log(price) ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc, data = kc_house_data_666, listw = kc_house_data_666_W, Durbin = TRUE)
-summary(SLX_seed)
+SLX_seed <- lmSLX(mod3, data = kc_house_data_666, listw = kc_house_data_666_W,
+                  Durbin =  as.formula(~ bedrooms + bathrooms + sqft_living +
+                                           sqft_living15 + sqft_lot + sqft_lot15 +
+                                           sqft_above + floors + grade + yr_built +
+                                           yr_renovated + waterfront + condition + 
+                                           view + dist_cbd_km + EHD_percen + 
+                                           low + high))
+
 ```
 
 ```{r, cache=TRUE}
-SEM_seed <- errorsarlm(log(price) ~ bedrooms + bathrooms + sqft_living + sqft_living15 + sqft_lot + sqft_lot15 + sqft_above + floors + grade + yr_built + yr_renovated + waterfront + condition + view + year_month + dist_cbd_km + linguist_2 + poverty_pe + POC_percen + unemploy_2 + sen_pop_pe + facilities + wastewater + traffic_pe + diesel + superfund + transporta + housing_pe + ozone + PM25 + toxic_rele + hazardous_ + lead_perce + socio_perc, data = kc_house_data_666, listw = kc_house_data_666_W, Durbin = FALSE)
-summary(SEM_seed)
+SEM_seed <- errorsarlm(mod3, data = kc_house_data_666, listw = kc_house_data_666_W, 
+                       Durbin = FALSE)
 ```
+
+```{r}
+summary(impacts(SDEM_seed), zstats = TRUE)
+```
+
+
+```{r}
+huxreg("SEM" = SEM_seed, "OLS" = hedon3_seed, 
+    error_format = "[{statistic}]",
+    note = "{stars}. T statistic in brackets.")
+```
+
+***I .pdf-filen har huxreg-tabellen lagt seg i slutten av dokumentet.***
+
 
 ```{r}
 LR.Sarlm(SDEM_seed, SEM_seed)
 LR.Sarlm(SDEM_seed, SLX_seed)
 ```
 
+Vi ser her at *SDEM* vil være den beste modellen å benytte estimatene fra.
+Under foretar vi en kontrolltest mot *OLS*-modellen.
+
 ```{r}
 LR1.Sarlm(SDEM_seed)
-LR1.Sarlm(SEM_seed)
 ```
 
 ```{r}
@@ -555,4 +632,161 @@ Hausman.test(SEM_seed) # Har omitted variables
 ```{r}
 bptest.Sarlm(SEM_seed, studentize = TRUE) # Har heteroskedastisitet
 ```
+
+```{r}
+moran.plot(residuals(hedon3_seed), listw = kc_house_data_666_W10)
+```
+
+```{r}
+moran.plot(residuals(SDEM_seed), listw = kc_house_data_666_W10)
+```
+
+Ved å sammenligne plots av residualene til OLS- og SDEM-modellene, ser vi at *SDEM* nesten helt fjerner romlig effekt.
+Vi antar at grunnen til at vi ikke har klart å fjerne romlige effekter helt er fordi vi har tatt utgangspunkt i modell 3, der vi benytter samlevariabelen for miljøfaktorer istedenfor modellen med alle faktorene.
+
+*Vi har tidligere kjørt moran.test for modell 2, som gav litt lavere Moran I-verdier enn vi fikk på modell 3. Vi har imidlertid ikke de beregningene med i datafilen her. Men resultatene fra de testene tyder på at kanskje hadde fått fjernet enda mer av de romlige effektene dersom vi heller hadde benyttet modell 2.*
+
+```{r}
+moran.test(residuals(SDEM_seed), listw = kc_house_data_666_W10)
+```
+
+Her ser vi at vi fortsatt har noe romlig effekt, men som vist i grafen over er den nesten eliminert.
+
+# 9. Eget utvalg - Ellers repetisjon av del 8
+
+
+```{r}
+set.seed(572)
+kc_houses_env_var_omit_2000 <- kc_houses_env_var_omit[sample(1:nrow(
+    kc_houses_env_var_omit), 2000, replace = FALSE), ]
+```
+
+```{r}
+hedon3_2000 <- lm(mod3, data = kc_houses_env_var_omit_2000)
+```
+
+```{r}
+huxreg("Full" = hedon3, "2000 Seed" = hedon3_2000, "666 Seed" = hedon3_seed, 
+    error_format = "[{statistic}]",
+    note = "{stars}. T statistic in brackets.")
+```
+
+***I .pdf-filen har huxreg-tabellen lagt seg i slutten av dokumentet.***
+
+```{r}
+kc_house_data_2000_mat_nb <- knearneigh(kc_houses_env_var_omit_2000, k = 3)
+kc_house_data_2000_nb <- knn2nb(kc_house_data_2000_mat_nb)
+kc_house_data_2000_W <- nb2listw(kc_house_data_2000_nb, style = "W")
+
+kc_house_data_2000_mat_nb10 <- knearneigh(kc_houses_env_var_omit_2000, k = 10)
+kc_house_data_2000_nb10 <- knn2nb(kc_house_data_2000_mat_nb10)
+kc_house_data_2000_W10 <- nb2listw(kc_house_data_2000_nb10, style = "W")
+```
+
+```{r}
+lm.morantest(hedon3_2000, kc_house_data_2000_W)
+lm.morantest(hedon3_2000, kc_house_data_2000_W10)
+```
+
+```{r}
+moran.plot(log(kc_houses_env_var_omit_2000$price), listw = kc_house_data_2000_W, labels = FALSE, pch = 20, cex = 0.3)
+```
+
+```{r}
+moran.plot(log(kc_houses_env_var_omit_2000$price), listw = kc_house_data_2000_W10, labels = FALSE, pch = 20, cex = 0.3)
+
+```
+
+
+```{r}
+kc_lagrange_3_2000 <- lm.LMtests(hedon3_2000, kc_house_data_2000_W, 
+               test = "all")
+kc_lagrange_3_2000
+```
+
+
+```{r}
+kc_lagrange_10_2000 <- lm.LMtests(hedon3_2000, kc_house_data_2000_W10, 
+               test = "all")
+kc_lagrange_10_2000
+```
+
+
+```{r}
+SDEM_2000 <- errorsarlm(mod3, data = kc_houses_env_var_omit_2000, listw = kc_house_data_2000_W, 
+                        Durbin = as.formula(~ bedrooms + bathrooms + sqft_living + sqft_living15 +
+                                                sqft_lot + sqft_lot15 + 
+                                                sqft_above + floors + grade + yr_built + 
+                                                yr_renovated + waterfront + condition + 
+                                                view + dist_cbd_km + EHD_percen + 
+                                                low + high))
+```
+
+```{r}
+SLX_2000 <- lmSLX(mod3, data = kc_houses_env_var_omit_2000, listw = kc_house_data_2000_W, 
+                  Durbin =  as.formula(~ bedrooms + bathrooms + sqft_living + sqft_living15 +
+                                           sqft_lot + sqft_lot15 + sqft_above + floors + grade +
+                                           yr_built + yr_renovated + waterfront + condition +
+                                           view + dist_cbd_km + EHD_percen + low + high))
+
+```
+
+```{r, cache=TRUE}
+SEM_2000 <- errorsarlm(mod3, data = kc_houses_env_var_omit_2000, listw = kc_house_data_2000_W, 
+                       Durbin = FALSE)
+```
+
+```{r}
+summary(impacts(SDEM_2000), zstats = TRUE)
+```
+
+
+```{r}
+huxreg("SEM" = SEM_2000, "OLS" = hedon3_2000, 
+    error_format = "[{statistic}]",
+    note = "{stars}. T statistic in brackets.")
+```
+
+***I .pdf-filen har huxreg-tabellen lagt seg i slutten av dokumentet.***
+
+
+```{r}
+LR.Sarlm(SDEM_2000, SEM_2000)
+LR.Sarlm(SDEM_2000, SLX_2000)
+```
+
+```{r}
+LR1.Sarlm(SDEM_2000)
+```
+
+```{r}
+Hausman.test(SEM_2000) # Har omitted variables
+```
+
+```{r}
+bptest.Sarlm(SEM_2000, studentize = TRUE) # Har heteroskedastisitet
+```
+
+```{r}
+moran.plot(residuals(hedon3_2000), listw = kc_house_data_2000_W10)
+```
+
+```{r}
+moran.plot(residuals(SDEM_2000), listw = kc_house_data_2000_W10)
+```
+
+```{r}
+moran.test(residuals(SDEM_2000), listw = kc_house_data_2000_W10)
+```
+
+
+# 10. Konklusjon
+
+Ved å sammenligne resultatene fra det fulle datasettet med 21435 observasjoner med to utvalgsdatasett, **666** der hver *tract* har 5 observasjoner og **2000** som har et helt tilfeldig utvalg, ser vi i stor grad tilsvarende resultater.
+Vi ser også at det ikke er stor forskjell ved å benytte et tilfeldig utvalg i motsetning til et definert utvalg.
+Vi får noe svakere Moran I verdi ved tilfeldig utvalg, men dette har nok sammenheng med samlevariablen for miljøeffekter.
+Ellers ser vi at *SDEM*-modellen vil være den korrekte å benytte uavhengig av "sampling"-metode.
+
+# Referanser
+
 
